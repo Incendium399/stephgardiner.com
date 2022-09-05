@@ -10,8 +10,14 @@
           background-color: #EAEAEA;
           font-family: "Poppins", sans-serif;
           /*color: #EAEAEA;*/
+          padding: 0px;
+          margin: 0px;
+          border: 0px;
+
         }
-        
+        header{
+
+        }
         h1 {
           /*color: white;-->*/
           text-align: center;
@@ -24,12 +30,19 @@
           margin: 0px;
           text-align: left;
         }
+
+        h2 {
+            color: #0E162A;
+
+        }
         
         p {
           
-          font-size: 20px;
-          font-weight: 200;
-          color: #EAEAEA
+          font-size: 15px;
+          font-weight: 500;
+          color: #0E162A;
+
+          background-color: #CBC5EA;
         }
 
          /* Add a black background color to the top navigation */
