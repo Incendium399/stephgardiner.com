@@ -89,10 +89,12 @@ body {
 
     .portfolioblock{
         background-color: #DBD8EA;
-        /*width: 350px;*/
-        /*align-self: center;*/
+        /*width: 50%;
+        align: center;*/
         margin: 20px;
         margin-top: 0px;
+        /*display: inline-block;*/
+        /*align-content: ;*/
     }
 
     .pagebottom{
