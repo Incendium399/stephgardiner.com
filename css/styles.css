@@ -34,7 +34,8 @@ body {
         color: #313D5A;
         margin: 20px;
         margin-bottom: 0px;
-        /*margin-top: 0px;*/
+        margin-top: 30px;
+        padding-top: 10px;
         font-weight: 700;
         font-size: 20px;
 
@@ -62,12 +63,42 @@ body {
           margin-bottom: 0px;
           /*padding: 10px;*/
 
+          text-align: justify;
+
     }
 
-    portfolioBlock{
-        content: 50%;
-        background-color: #DBD8EA;
+    li{
+        font-size: 15px;
+          font-weight: 500;
+          color: #0E162A;
 
+          /*background-color: #DBD8EA;*/
+          margin: 20px;
+          margin-top: 5px;
+          margin-bottom: 0px;
+          /*padding: 10px;*/
+
+          text-align: justify;
+    }
+
+    .pagecontent{
+        /*margin-left: 250px;
+        margin-right: 250px;*/
+        width: 60%;
+        margin: auto;
+    }
+
+    .portfolioblock{
+        background-color: #DBD8EA;
+        /*width: 350px;*/
+        /*align-self: center;*/
+        margin: 20px;
+        margin-top: 0px;
+    }
+
+    .pagebottom{
+        background-color: #0E162A;
+        
     }
 
 /* Add a black background color to the top navigation */
