@@ -82,8 +82,7 @@ body {
     }
 
     .pagecontent{
-        /*margin-left: 250px;
-        margin-right: 250px;*/
+
         width: 60%;
         margin: auto;
     }
@@ -98,7 +97,7 @@ body {
 
     .pagebottom{
         background-color: #0E162A;
-        
+
     }
 
 /* Add a black background color to the top navigation */
