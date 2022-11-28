@@ -256,7 +256,7 @@ body {
 }
 
 main {
-  background-image: url("./images/heraldandshield/Blocks.jpg");
+  background-image: url('../images/Blocks.jpg');
   background-position: center 0%;
   background-size: cover;
   height: 100vh;
