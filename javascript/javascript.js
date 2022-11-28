@@ -1,6 +1,6 @@
-let slideIndex = [1,1];
+/* let slideIndex = [1,1]; 
 /* Class the members of each slideshow group with different CSS classes */
-let slideId = ["mySlides1", "mySlides2"]
+/* let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
 
@@ -18,3 +18,8 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";
 } 
+
+*/
+const toggleNav = () => {
+  document.body.dataset.nav = document.body.dataset.nav === "true" ? "false" : "true";
+}
