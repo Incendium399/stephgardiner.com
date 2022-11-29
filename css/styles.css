@@ -282,7 +282,9 @@ h1 {
   
   margin: 0px;
   text-align: left;
-  font-size: 5vh;
+  font-size: 10vh;
+
+  font-family: "Poppins", sans-serif;
 }
 
 maincontent{
