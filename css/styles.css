@@ -253,8 +253,6 @@ body {
   margin: 0px;
   background-color: var(--myblack);
 
-
-
 --mypink: #db0049ff;
 --myorange: #fa4200ff;
 --myyellow: #ff9300ff;
@@ -264,12 +262,32 @@ body {
 --myblack: #000000ff;
 }
 
-.rubik-font {
+h1 {
+
+  color: var(--myblack);
+  text-transform: uppercase;
+  font-weight: 900;
+
+  text-align: center;
+  font-style: bold;
+  
+  
+  padding-left: 5vw;
+  padding-top: 5vh;
+  letter-spacing: 5px;
+  
+  margin: 0px;
+  text-align: left;
+  font-size: 5vh;
+}
+
+.my-font {
   font-family: "Poppins", sans-serif;
 }
 
 main {
-  background-image: url('../images/Blocks.jpg');
+  /*background-image: url('../images/Blocks.jpg');*/
+  background-color: var(--myyellow);
   background-position: center 0%;
   background-size: cover;
   height: 100vh;
