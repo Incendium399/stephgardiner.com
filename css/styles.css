@@ -1,418 +1,197 @@
-        
-/* 
-
-body {
-    background-color: #EAEAEA;
-    font-family: "Poppins", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
-        
-    h1 {
-        text-align: center;
-        font-style: bold;
-        font-weight: 900;
-        color: #EAEAEA;
-        background-color: #0E162A;
-        padding: 10px;
-        padding-left: 20px;
-        margin: 0px;
-        text-align: left;
-        font-size: 40px;
-    }
-
-    h2 {
-        color: #0E162A;
-        margin: 20px;
-        margin-bottom: 0px;
-        margin-top: 25px;
-        font-weight: 800;
-        font-size: 30px;
-
-    }
-
-    h3{
-        color: #313D5A;
-        margin: 20px;
-        margin-bottom: 0px;
-        margin-top: 30px;
-        padding-top: 10px;
-        font-weight: 700;
-        font-size: 20px;
-
-    }
-
-    h4{
-        color: #313D5A;
-        margin: 20px;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-left: 30px;
-        font-weight: 700;
-        font-size: 15px;
-    }
-        
-    p {
-          
-          font-size: 15px;
-          font-weight: 500;
-          color: #0E162A;
-
-          /*background-color: #DBD8EA;*/
-
-          /*
-          margin: 20px;
-          margin-top: 5px;
-          margin-bottom: 0px; */
-          /*padding: 10px;*/
-
-          /* text-align: justify;
-
-    } */
-
-    
-   /*
-    li{
-        font-size: 15px;
-          font-weight: 500;
-          color: #0E162A; */
-
-          /*background-color: #DBD8EA;*/
-         /* margin: 20px;
-          margin-top: 5px;
-          margin-bottom: 0px;
-          /*padding: 10px;*/
-/*
-          text-align: justify;
-    }
-
-    .pagecontent{
-
-        width: 60%;
-        margin: auto;
-    }
-
-    .portfolioblock{
-        background-color: #DBD8EA; */
-        /*width: 50%;
-        align: center;*/
-       /* margin: 20px;
-        margin-top: 0px; */
-        /*display: inline-block;*/
-        /*align-content: ;*/
-   /* }
-
-    .pagebottom{
-        background-color: #0E162A;
-
-    }  /*
-
-/* Add a black background color to the top navigation */
-/* .topnav {
-  background-color: #313D5A;
-  overflow: hidden;
-}
-/*
-/* Style the links inside the navigation bar */
-/*.topnav a {
-  float: left;
-  display: block;
-  color: #EAEAEA;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-} */
- 
-/* Change the color of links on hover */
-/* .topnav a:hover {
-  background-color: #EAEAEA;
-  color: #0E162A;
-} */
-
-/* Add an active class to highlight the current page */
-/* .topnav a.active {
-  background-color: #62668A;
-  color: #EAEAEA;
-} */
-
-/* Hide the link that should open and close the topnav on small screens */
-/*
-.topnav .icon {
-  display: none;
-} 
+        body {
+          height: 100vh;
+          width: 100vw;
+          margin: 0px;
+          background-color: var(--background);
 
 
-* {box-sizing:border-box}
+          /* MY COLOURS*/
+          --text: #ebfeef;
+          --background: #01270a;
+          --primary: #940575;
+          --secondary: #450215;
+          --accent: #b91df7;
 
-/* Slideshow container */
-
-/*
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-*/
-/* Hide the images by default */
-/*
-.mySlides {
-  display: none;
-}
- */
-/* Next & previous buttons */
-/*
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-*/
-/* Position the "next button" to the right */
-/*
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-*/
-/* On hover, add a black background color with a little bit see-through */
-/*
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-*/
-/* Caption text */
-/*
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-*/
-/* Number text (1/3 etc) */
-/*
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-*/
-/* The dots/bullets/indicators */
-/*
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-*/
-/*
-.active, .dot:hover {
-  background-color: #717171;
-}
-*/
-/* Fading animation */
-/*
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-*/
+        }
 
 
 
+        .my-font {
+          font-family: "Poppins", sans-serif;
+        }
 
-body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0px;
-  background-color: var(--myblack);
+        main {
+          /*background-image: url('../images/Blocks.jpg');*/
+          background-color: var(--secondary);
+          background-position: center 0%;
+          background-size: cover;
+          height: 100vh;
+          width: 100vw;
+          position: relative;
+          z-index: 2;
+          transition: transform 500ms cubic-bezier(.13, .53, .38, .97);
+        }
 
---mypink: #db0049ff;
---myorange: #fa4200ff;
---myyellow: #ff9300ff;
---mygreen: #399349ff;
---myblue: #385b8fff;
---mywhite: #fff4dfff;
---myblack: #000000ff;
-}
+        maincontent {
+          position: absolute;
 
+          height: 80vh;
+          width: 100vw;
+          margin: 0px;
 
+        }
 
-.my-font {
-  font-family: "Poppins", sans-serif;
-}
+        h1 {
 
-main {
-  /*background-image: url('../images/Blocks.jpg');*/
-  background-color: var(--myyellow);
-  background-position: center 0%;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  z-index: 2;
-  transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
-}
+          color: var(--text);
+          text-transform: uppercase;
+          font-weight: 900;
 
-maincontent{
-  position: absolute;
-
-  height: 80vh;
-  width: 100vw;
-  margin: 0px;
-  /*background-color: var(--mygreen);*/
-}
-
-h1 {
-
-  color: var(--myblack);
-  text-transform: uppercase;
-  font-weight: 900;
-
-  text-align: center;
-  font-style: bold;
-  
-  
-  padding-left: 5vw;
-  padding-top: 5vh;
-  padding-bottom: 0vh;
-  letter-spacing: 5px;
-
-  position: absolute;
-  bottom: 0;
-  
-  margin: 0px;
-  text-align: left;
-  font-size: 10vh;
-
-  font-family: "Poppins", sans-serif;
-}
-
-body[data-nav="true"] > main {
-  transform: translateY(-50%);
-}
-
-nav {
-  height: 50vh;
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  z-index: 1;
-  overflow: hidden;
-}
-
-#nav-links {  
-  display: flex;
-  gap: clamp(1rem, 2vw, 2rem);
-  margin-top: clamp(2rem, 2vw, 3rem);
-  padding: 0rem clamp(1rem, 2vw, 2rem);
-  transform: translateY(70%) scale(0.9);
-  transition: transform 500ms cubic-bezier(.13,.53,.38,.97); 
-}
-
-body[data-nav="true"] > nav > #nav-links {
-  transform: translateY(0%) scale(1);
-}
-
-#nav-links > .nav-link {
-  text-decoration: none;
-}
-
-#nav-links > .nav-link > .nav-link-label {
-  color: var(--mywhite);
-  font-size: 1.25rem;
-  margin: 0rem;
-  text-transform: uppercase;
-}
-
-#nav-links > .nav-link > .nav-link-image {
-  width: max(20vw, 400px);
-  aspect-ratio: 1.8 / 1;
-  border-radius: 0.5rem;
-  margin-top: 0.75rem;
-  object-fit: cover;
-}
-
-#nav-toggle {
-  height: 5rem;
-  width: 5rem;
-  position: fixed;
-  z-index: 3;
-  left: 50%;
-  bottom: 3rem;
-  transform: translateX(-50%);
-  background-color: var(--mypink);
-  border: none;
-  border-radius: 5rem;
-  outline: none;
-  box-shadow: 0rem 0rem 4rem rgba(0 0 0 / 35%);
-  cursor: pointer;
-  transition: transform, background-color;
-  transition-timing-function: ease;
-  transition-duration: 400ms;
-}
-
-#nav-toggle:hover {
-  transform: translateX(-50%) scale(1.04);
-}
-
-#nav-toggle:active {
-  transform: translateX(-50%) scale(0.96);
-}
-
-body[data-nav="true"] > #nav-toggle {
-  background-color: var(--mygreen);
-}
-
-body:not([data-nav="true"]) > #nav-toggle:hover > .open {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
-
-#nav-toggle > i {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) scale(0.9);
-  color: var(--mywhite);
-  font-size: 1.75rem;
-  opacity: 0;
-  transition: transform, opacity;
-  transition-timing-function: ease;
-  transition-duration: 400ms;
-}
-
-body[data-nav="true"] > #nav-toggle > .close {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
-}
+          text-align: center;
+          font-style: bold;
 
 
-       
+          padding-left: 5vw;
+          padding-top: 5vh;
+          padding-bottom: 0vh;
+          letter-spacing: 5px;
+
+          position: absolute;
+          bottom: 0;
+
+          margin: 0px;
+          text-align: left;
+          font-size: 10vh;
+
+          font-family: "Poppins", sans-serif;
+        }
+
+        h2 {
+
+          color: var(--text);
+          text-transform: uppercase;
+          font-weight: 900;
+          font-family: "Poppins", sans-serif;
+
+          padding-left: 5vw;
+          padding-top: 0vh;
+          padding-bottom: 0vh;
+          letter-spacing: 5px;
+
+          font-size: 5vh;
+
+        }
+
+        p {
+
+          color: var(--text);
+          font-weight: 400;
+          font-family: "Poppins", sans-serif;
+
+          padding-left: 5vw;
+          padding-top: 0vh;
+          padding-bottom: 0vh;
+
+          font-size: 2vh;
+
+        }
+
+        body[data-nav="true"]>main {
+          transform: translateY(-50%);
+        }
+
+        nav {
+          height: 50vh;
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          z-index: 1;
+          overflow: hidden;
+        }
+
+        #nav-links {
+          display: flex;
+          gap: clamp(1rem, 2vw, 2rem);
+          margin-top: clamp(2rem, 2vw, 3rem);
+          padding: 0rem clamp(1rem, 2vw, 2rem);
+          transform: translateY(70%) scale(0.9);
+          transition: transform 500ms cubic-bezier(.13, .53, .38, .97);
+        }
+
+        body[data-nav="true"]>nav>#nav-links {
+          transform: translateY(0%) scale(1);
+        }
+
+        #nav-links>.nav-link {
+          text-decoration: none;
+        }
+
+        #nav-links>.nav-link>.nav-link-label {
+          color: var(--text);
+          font-size: 1.25rem;
+          margin: 0rem;
+          text-transform: uppercase;
+        }
+
+        #nav-links>.nav-link>.nav-link-image {
+          width: max(20vw, 400px);
+          aspect-ratio: 1.8 / 1;
+          border-radius: 0.5rem;
+          margin-top: 0.75rem;
+          object-fit: cover;
+        }
+
+        #nav-toggle {
+          height: 5rem;
+          width: 5rem;
+          position: fixed;
+          z-index: 3;
+          left: 50%;
+          bottom: 3rem;
+          transform: translateX(-50%);
+          background-color: var(--primary);
+          border: none;
+          border-radius: 5rem;
+          outline: none;
+          box-shadow: 0rem 0rem 4rem rgba(0 0 0 / 35%);
+          cursor: pointer;
+          transition: transform, background-color;
+          transition-timing-function: ease;
+          transition-duration: 400ms;
+        }
+
+        #nav-toggle:hover {
+          transform: translateX(-50%) scale(1.04);
+        }
+
+        #nav-toggle:active {
+          transform: translateX(-50%) scale(0.96);
+        }
+
+        body[data-nav="true"]>#nav-toggle {
+          background-color: var(--background);
+        }
+
+        body:not([data-nav="true"])>#nav-toggle:hover>.open {
+          opacity: 1;
+          transform: translate(-50%, -50%) scale(1);
+        }
+
+        #nav-toggle>i {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%) scale(0.9);
+          color: var(--text);
+          font-size: 1.75rem;
+          opacity: 0;
+          transition: transform, opacity;
+          transition-timing-function: ease;
+          transition-duration: 400ms;
+        }
+
+        body[data-nav="true"]>#nav-toggle>.close {
+          opacity: 1;
+          transform: translate(-50%, -50%) scale(1);
+        }
