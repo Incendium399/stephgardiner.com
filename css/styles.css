@@ -68,6 +68,8 @@
 
         h2 {
 
+          background-color: var(--secondary);
+
           color: var(--text);
           text-transform: uppercase;
           font-weight: 900;
@@ -80,19 +82,107 @@
 
           font-size: 5vh;
 
+         /* padding: 0;*/
+          margin: 0;
+          
+
         }
 
-        p {
+        h3 {
+          background-color: var(--primary);
 
           color: var(--text);
-          font-weight: 400;
+          font-weight: 900;
+          font-family: "Poppins", sans-serif;
+
+          padding-left: 5vw;
+          padding-top: 0vh;
+          padding-bottom: 0vh;
+          letter-spacing: 5px;
+
+          font-size: 4vh;
+
+          margin: 0;
+        }
+
+        h4 {
+          background-color: var(--secondary);
+          color: var(--text);
+          text-transform: uppercase;
+          font-weight: 900;
           font-family: "Poppins", sans-serif;
 
           padding-left: 5vw;
           padding-top: 0vh;
           padding-bottom: 0vh;
 
+          font-size: 3vh;
+
+          margin: 0;
+
+
+        }
+
+        p {
+
+          background-color: var(--accent);
+
+          color: var(--text);
+          font-weight: 400;
+          font-family: "Poppins", sans-serif;
+
+          padding-left: 5vw;
+          padding-right: 5vw;
+          padding-top: 0vh;
+          padding-bottom: 0vh;
+
+          text-align: justify;
+          text-align-last: left;
+
           font-size: 2vh;
+
+          margin-top: 0;
+
+        }
+
+        ul {
+
+          padding-left: 8vw;
+          margin-top: 0;
+        }
+
+        li {
+
+          color: var(--text);
+          font-weight: 400;
+          font-family: "Poppins", sans-serif;
+
+          padding-left: 1vw;
+          padding-top: 0vh;
+          padding-bottom: 0vh;
+
+          font-size: 2vh;
+
+          
+
+        }
+
+        #project-title{
+
+          background-color: var(--accent);
+          padding: 0;
+          margin: 0;
+
+
+        }
+
+        #project-description{
+          background-color: var(--secondary);
+
+        }
+
+        #project-details{
+          background-color: var(--primary);
 
         }
 
