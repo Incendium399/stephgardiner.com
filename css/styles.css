@@ -4,6 +4,8 @@
           margin: 0px;
           background-color: var(--background);
 
+          font-size: 2vw;
+
 
           /* MY COLOURS*/
           --text: #ebfeef;
@@ -61,7 +63,7 @@
 
           margin: 0px;
           text-align: left;
-          font-size: 10vh;
+          font-size: 10vw;
 
           font-family: "Poppins", sans-serif;
         }
@@ -80,7 +82,7 @@
           padding-bottom: 0vh;
           letter-spacing: 5px;
 
-          font-size: 5vh;
+          font-size: 5vw;
 
          /* padding: 0;*/
           margin: 0;
@@ -100,7 +102,7 @@
           padding-bottom: 0vh;
           letter-spacing: 5px;
 
-          font-size: 4vh;
+          font-size: 4vw;
 
           margin: 0;
         }
@@ -116,7 +118,7 @@
           padding-top: 0vh;
           padding-bottom: 0vh;
 
-          font-size: 3vh;
+          font-size: 3vw;
 
           margin: 0;
 
@@ -125,23 +127,22 @@
 
         p {
 
-          background-color: var(--accent);
+         /* background-color: var(--accent);*/
 
           color: var(--text);
           font-weight: 400;
           font-family: "Poppins", sans-serif;
 
-          padding-left: 5vw;
-          padding-right: 5vw;
-          padding-top: 0vh;
-          padding-bottom: 0vh;
+          /*padding-left: 5vw;*/
+          /*padding-right: 5vw;*/
+          /*padding-top: 0vh;*/
+          /*padding-bottom: 0vh;*/
 
           text-align: justify;
           text-align-last: left;
 
-          font-size: 2vh;
-
           margin-top: 0;
+
 
         }
 
@@ -161,10 +162,26 @@
           padding-top: 0vh;
           padding-bottom: 0vh;
 
-          font-size: 2vh;
+          font-size: 2vw;
 
           
 
+        }  
+
+        iframe {
+
+          padding: 5vw;
+          padding-bottom: 0;
+          width: 90vw;
+          height: 50.625vw;
+        }
+
+        img {
+
+          padding: 5vw;
+          padding-bottom: 0;
+          width: 90vw;
+          height: auto;
         }
 
         #project-title{
@@ -179,11 +196,19 @@
         #project-description{
           background-color: var(--secondary);
 
+          margin: 5vw;
+          padding: 5vw;
+
         }
 
         #project-details{
           background-color: var(--primary);
 
+        }
+
+        #collage{
+
+          background-color: var(--text);
         }
 
         body[data-nav="true"]>main {
