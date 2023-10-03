@@ -238,9 +238,9 @@
         }
 
         /* visited link */
-        /*a:visited {
-          color: green;
-        }*/
+        a:visited {
+          color: var(--text);
+        }
 
         /* mouse over link */
         a:hover {
