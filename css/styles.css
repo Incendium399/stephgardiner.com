@@ -84,9 +84,9 @@
 
           font-size: 3vh;
 
-         /* padding: 0;*/
+          /* padding: 0;*/
           margin: 0;
-          
+
 
         }
 
@@ -127,7 +127,7 @@
 
         p {
 
-         /* background-color: var(--accent);*/
+          /* background-color: var(--accent);*/
 
           color: var(--text);
           font-weight: 400;
@@ -162,11 +162,11 @@
           padding-top: 0vh;
           padding-bottom: 0vh;
 
- 
 
-          
 
-        }  
+
+
+        }
 
         iframe {
 
@@ -184,7 +184,7 @@
           height: auto;
         }
 
-        #project-title{
+        #project-title {
 
           background-color: var(--accent);
           padding: 0;
@@ -193,7 +193,7 @@
 
         }
 
-        #project-description{
+        #project-description {
           background-color: var(--secondary);
 
           margin: 5vw;
@@ -201,18 +201,56 @@
 
         }
 
-        #project-details{
+        #project-details {
           background-color: var(--primary);
 
         }
 
-        #collage{
+        #collage {
 
           background-color: var(--text);
         }
 
         body[data-nav="true"]>main {
           transform: translateY(-50%);
+        }
+
+        .topnav {
+          background-color: var(--secondary);
+          padding: 1rem;
+          font-weight: 500;
+          font-family: "Poppins", sans-serif;
+
+        }
+
+        a {
+          font-weight: 700;
+          text-transform: uppercase;
+          text-decoration: none;
+
+        }
+
+        /* unvisited link */
+        a:link {
+          color: var(--text);
+          
+          padding: 0.5rem;
+        }
+
+        /* visited link */
+        /*a:visited {
+          color: green;
+        }*/
+
+        /* mouse over link */
+        a:hover {
+          
+          background-color: var(--primary);
+        }
+
+        /* selected link */
+        a:active {
+          color: var(--secondary)
         }
 
         nav {
