@@ -23,3 +23,33 @@ function showSlides(n, no) {
 const toggleNav = () => {
   document.body.dataset.nav = document.body.dataset.nav === "true" ? "false" : "true";
 }
+
+function getPageWidth(){
+  var w = window.innerWidth;
+  var h = window.innerHeight; 
+
+  console.debug("ahhhhhhh");
+
+  reduce(w,h)
+
+  if (numerator >= denominator){
+    document.getElementsByClass("project-details").style.columnCount=1;
+    
+
+  }
+  else{
+    document.getElementsByClass("project-details").style.columnCount=2;
+
+  }
+  
+}
+
+function reduce(numerator, denominator) {
+  var a = numerator;
+  var b = denominator;
+  var c;
+  while (b) {
+      c = a % b; a = b; b = c;
+  }
+  return [numerator / a, denominator / a];
+}

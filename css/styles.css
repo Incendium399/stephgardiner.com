@@ -14,6 +14,8 @@
           --secondary: #450215;
           --accent: #b91df7;
 
+          --text-transparent: rgba(235, 254, 239, 5%);
+
 
           --shadow: 0rem 0.1rem 0.3rem black;
 
@@ -152,7 +154,7 @@
           text-align: justify;
           text-align-last: left;
 
-          margin-top: 0;
+
 
 
         }
@@ -211,7 +213,7 @@
         /* sets a min margin width and max margin width*/
         .page-content-max {
           
-          margin: clamp(2rem, 2rem, 100%);
+          margin: clamp(2em, 2em, 100%);
           
         }
 
@@ -219,18 +221,39 @@
         .page-content{
           margin: auto;
           max-width: var(--contentmax);
+          background-color: var(--text-transparent);
+          box-shadow: var(--shadow);
+          padding-top: 1em;
+          border-radius: 2em;
         }
 
-        .project-description-text{
-          padding: 2rem;
+        .project-blurb{
+          padding: 2em;
+          margin: 2em;
           box-shadow: var(--shadow);
           background-color: var(--secondary);
+          border-radius: 2em;
         }
 
         .project-details {
-          background-color: var(--primary);
-          padding: 2rem;
 
+          padding: 2em;
+          column-count: 2;
+
+        }
+
+
+        .project-details > p {
+          padding-left: 2em;
+        }
+        .project-details > h4 {
+          padding-left: 1em;
+          
+        }
+
+        .project-details > ul{
+          column-span: none;
+          background: black; 
         }
 
         #collage {
