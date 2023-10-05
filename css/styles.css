@@ -17,6 +17,9 @@
 
           --shadow: 0rem 0.1rem 0.3rem black;
 
+          --contentmax: 60rem;
+          --marginmin: 2rem;
+
         }
 
 
@@ -186,6 +189,7 @@
           padding-bottom: 0;
           width: 90vw;
           height: 50.625vw;
+          
         }
 
         img {
@@ -199,17 +203,28 @@
         .project-title {
 
           text-align: center;
+          margin-top: 5rem;
           
 
         }
 
-        .project-description {
-          background-color: var(--secondary);
+        /* sets a min margin width and max margin width*/
+        .page-content-max {
+          
+          margin: clamp(2rem, 2rem, 100%);
+          
+        }
 
-          margin: 2rem;
+        /*makes it center aligned and gives a max width for any content*/
+        .page-content{
+          margin: auto;
+          max-width: var(--contentmax);
+        }
+
+        .project-description-text{
           padding: 2rem;
-          box-shadow: var(--shadow)
-
+          box-shadow: var(--shadow);
+          background-color: var(--secondary);
         }
 
         .project-details {
@@ -234,6 +249,10 @@
           padding: 1rem;
           font-weight: 500;
           font-family: "Poppins", sans-serif;
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
 
         }
 
