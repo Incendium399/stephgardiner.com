@@ -14,6 +14,9 @@
           --secondary: #450215;
           --accent: #b91df7;
 
+
+          --shadow: 0rem 0.1rem 0.3rem black;
+
         }
 
 
@@ -43,6 +46,7 @@
 
         }
 
+        /* huge title text*/
         h1 {
 
           color: var(--text);
@@ -69,18 +73,17 @@
         }
 
         h2 {
-
-          background-color: var(--secondary);
-
+        
           color: var(--text);
+          text-shadow: var(--shadow);
           text-transform: uppercase;
           font-weight: 900;
           font-family: "Poppins", sans-serif;
 
-          padding-left: 5vw;
-          padding-top: 0vh;
-          padding-bottom: 0vh;
-          letter-spacing: 5px;
+          padding-left: 0rem;
+          padding-top: 1rem;
+          padding-bottom: 0rem;
+          /*letter-spacing: 5px;*/
 
           font-size: 3vh;
 
@@ -91,16 +94,19 @@
         }
 
         h3 {
-          background-color: var(--primary);
+          /*background-color: var(--primary);
+          */
+          text-align: center;
+          text-shadow: var(--shadow);
 
           color: var(--text);
           font-weight: 900;
           font-family: "Poppins", sans-serif;
 
-          padding-left: 5vw;
+          /*padding-left: 5vw;*/
           padding-top: 0vh;
           padding-bottom: 0vh;
-          letter-spacing: 5px;
+          /*letter-spacing: 5px;*/
 
           font-size: 2vh;
 
@@ -108,8 +114,9 @@
         }
 
         h4 {
-          background-color: var(--secondary);
-          color: var(--text);
+          /*background-color: var(--secondary);*/
+          text-shadow: var(--shadow);
+          /*color: var(--text);*/
           text-transform: uppercase;
           font-weight: 900;
           font-family: "Poppins", sans-serif;
@@ -121,6 +128,7 @@
           font-size: 1.7vh;
 
           margin: 0;
+          
 
 
         }
@@ -168,6 +176,10 @@
 
         }
 
+
+        /* project page stuff*/
+
+        /*youtube videos*/
         iframe {
 
           padding: 5vw;
@@ -184,25 +196,25 @@
           height: auto;
         }
 
-        #project-title {
+        .project-title {
 
-          background-color: var(--accent);
-          padding: 0;
-          margin: 0;
-
+          text-align: center;
+          
 
         }
 
-        #project-description {
+        .project-description {
           background-color: var(--secondary);
 
-          margin: 5vw;
-          padding: 5vw;
+          margin: 2rem;
+          padding: 2rem;
+          box-shadow: var(--shadow)
 
         }
 
-        #project-details {
+        .project-details {
           background-color: var(--primary);
+          padding: 2rem;
 
         }
 
@@ -215,43 +227,57 @@
           transform: translateY(-50%);
         }
 
+        /* the link behavior for the top nav*/
         .topnav {
           background-color: var(--secondary);
+          box-shadow: var(--shadow);
           padding: 1rem;
           font-weight: 500;
           font-family: "Poppins", sans-serif;
 
         }
 
-        a {
+        .topnav > a {
           font-weight: 700;
           text-transform: uppercase;
           text-decoration: none;
 
         }
 
-        /* unvisited link */
-        a:link {
+        /* unvisited link in the topnav*/
+        .topnav > a:link {
           color: var(--text);
           
           padding: 0.5rem;
         }
 
-        /* visited link */
-        a:visited {
+        /* visited link in the topnav*/
+        .topnav > a:visited {
           color: var(--text);
         }
 
-        /* mouse over link */
-        a:hover {
+        /* mouse over link in the topnav*/
+        .topnav > a:hover {
           
           background-color: var(--primary);
         }
 
-        /* selected link */
-        a:active {
+        /* selected link in the topnav*/
+        .topnav > a:active {
           color: var(--secondary)
         }
+
+        /*other links*/
+        a:link {
+          color: var(--text);
+          text-decoration: none;
+
+        }
+
+        a:hover{
+          color:var(--accent);
+        }
+
 
         nav {
           height: 50vh;
