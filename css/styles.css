@@ -5,6 +5,7 @@
           /* MY COLOURS*/
           --text: #effbf3;
           --text-transparent: rgba(239, 251, 243, 5%);
+          --nothing: rgba(0, 0, 0, 0%);
           --background: #010402;
           --primary: #40ceb9;
           --secondary: #200818;
@@ -39,6 +40,10 @@
 
         /* huge title text*/
         h1 {
+          background-image: linear-gradient(to right, var(--accent), var(--primary));
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
 
           color: var(--text);
           text-transform: uppercase;
@@ -55,7 +60,7 @@
 
           margin: 0px;
           text-align: left;
-          font-size: 10vw;
+          font-size: 9vw;
 
           font-family: var(--myfont);
         }
@@ -174,6 +179,13 @@
           box-shadow: var(--shadow);
           padding-top: 1em;
           border-radius: 2em;
+        }
+
+        /*changes to page-content div that only apply to the index/home file*/
+
+        #homePageContent{
+          background-color: var(--nothing);
+          box-shadow: var(--nothing);
         }
 
         .project-blurb {
