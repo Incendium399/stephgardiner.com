@@ -3,12 +3,12 @@
           background-color: var(--background);
 
           /* MY COLOURS*/
-          --text: #ebfeef;
-          --text-transparent: rgba(235, 254, 239, 5%);
-          --background: #01270a;
-          --primary: #940575;
-          --secondary: #450215;
-          --accent: #b91df7;
+          --text: #effbf3;
+          --text-transparent: rgba(239, 251, 243, 5%);
+          --background: #010402;
+          --primary: #40ceb9;
+          --secondary: #200818;
+          --accent: #c33248;
 
 
 
@@ -27,26 +27,13 @@
           font-family: "Poppins", sans-serif;
         }*/
 
-        main {
-          /*background-image: url('../images/Blocks.jpg');*/
-          background-color: var(--secondary);
-          background-position: center 0%;
-          background-size: cover;
-          height: 100vh;
-          width: 100vw;
-          position: relative;
-          z-index: 2;
-          transition: transform 500ms cubic-bezier(.13, .53, .38, .97);
-        }
-
-        maincontent {
+        footer {
           position: absolute;
-
-          height: 80vh;
-          width: 100vw;
-          margin: 0px;
+          bottom: 0;
 
         }
+
+
 
         /* huge title text*/
         h1 {
@@ -63,9 +50,6 @@
           padding-top: 5vh;
           padding-bottom: 0vh;
           letter-spacing: 5px;
-
-          position: absolute;
-          bottom: 0;
 
           margin: 0px;
           text-align: left;
