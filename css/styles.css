@@ -28,9 +28,11 @@
         }*/
 
         footer {
-          position: absolute;
-          bottom: 0;
+          position: relative;
 
+          bottom: 0;
+          background: var(--secondary);
+          width: 100%;
         }
 
 
@@ -229,8 +231,8 @@
         }
 
         /* the link behavior for the top nav*/
-        .topnav {
-          background-color: var(--secondary);
+        nav {
+          background-color: var(--background);
           box-shadow: var(--shadow);
           padding: 1rem;
           font-weight: 500;
@@ -239,6 +241,9 @@
           top: 0;
           right: 0;
           left: 0;
+          border-bottom-style: solid ;
+          border-color: var(--text-transparent);
+          border-width: 0.001rem;
 
         }
 
@@ -283,16 +288,6 @@
           color: var(--accent);
         }
 
-
-        nav {
-          height: 50vh;
-          width: 100%;
-          position: absolute;
-          left: 0px;
-          bottom: 0px;
-          z-index: 1;
-          overflow: hidden;
-        }
 
         #nav-links {
           display: flex;
