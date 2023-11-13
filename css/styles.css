@@ -49,7 +49,7 @@
           -webkit-text-fill-color: transparent;
           color: transparent;
 
-          color: var(--text);
+          
           text-transform: uppercase;
           font-weight: 900;
 
@@ -179,7 +179,7 @@
         .page-content {
           margin: auto;
           max-width: var(--contentmax);
-          background-color: var(--text-transparent);
+          background-color: var(--primary-transparent);
           box-shadow: var(--shadow);
           padding-top: 1em;
           border-radius: 2em;
@@ -283,9 +283,12 @@
         }
 
         /* mouse over link in the topnav*/
-        .topnav a:hover {
-
-          background-color: var(--primary-transparent);
+        .topnav a:hover {       
+          background-image: linear-gradient(to right, var(--text), var(--primary));
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: transparent;
         }
 
         /* selected link in the topnav*/
