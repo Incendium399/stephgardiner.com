@@ -113,7 +113,7 @@
         h4 {
           /*background-color: var(--secondary);*/
           text-shadow: var(--shadow);
-          /*color: var(--text);*/
+          color: var(--text);
           text-transform: uppercase;
           font-weight: 900;
           font-family: var(--myfont);
@@ -215,7 +215,6 @@
 
         .project-details ul {
           column-span: none;
-          background: black;
         }
 
         .project-video {
