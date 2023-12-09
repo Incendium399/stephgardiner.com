@@ -78,7 +78,7 @@
           font-family: var(--myfont);
 
           padding-left: 0rem;
-          padding-top: 1rem;
+          /*padding-top: 1rem;*/
           padding-bottom: 0rem;
           /*letter-spacing: 5px;*/
 
@@ -167,7 +167,7 @@
         /* project page stuff*/
         .project-title {
           text-align: center;
-          margin-top: 5rem;
+          margin-top: 1rem;
         }
 
         /* sets a min margin width and max margin width*/
@@ -202,7 +202,7 @@
 
         .project-details {
           padding: 2em;
-          column-count: 2;
+          /*column-count: 2;*/
         }
 
         .project-details p {
