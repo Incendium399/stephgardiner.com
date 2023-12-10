@@ -14,12 +14,10 @@
           --accent: #c33248;
           --accent-transparent: rgba(195, 50, 72, 20%);
 
-
-
           --shadow: 0rem 0.1rem 0.3rem black;
 
-          --contentmax: 60rem;
-          --marginmin: 2rem;
+          --contentmax: 1;
+          --marginmin: 0;
 
           --myfont: "Poppins", sans-serif;
 
@@ -64,7 +62,7 @@
 
           margin: 0px;
           text-align: left;
-          font-size: 9vw;
+          font-size: 60;
 
           font-family: var(--myfont);
         }
@@ -82,12 +80,16 @@
           padding-bottom: 0rem;
           /*letter-spacing: 5px;*/
 
-          font-size: 3vh;
+          font-size: 10vmin;
 
           /* padding: 0;*/
           margin: 0;
 
 
+        }
+/* project title is usually a h2 or h3 */
+        .project-title {
+          text-align: center;
         }
 
         h3 {
@@ -105,7 +107,7 @@
           padding-bottom: 0vh;
           /*letter-spacing: 5px;*/
 
-          font-size: 2vh;
+          font-size: 40;
 
           margin: 0;
         }
@@ -122,27 +124,24 @@
           padding-top: 0vh;
           padding-bottom: 0vh;
 
-          font-size: 1.7vh;
+          font-size: 40;
 
           margin: 0;
-
-
 
         }
 
         p {
-
           color: var(--text);
           font-weight: 400;
           font-family: var(--myfont);
 
           text-align: justify;
           text-align-last: left;
+          font-size: 100;
 
         }
 
         ul {
-
           /*padding-left: 8vw;*/
           margin-top: 0;
         }
@@ -156,20 +155,9 @@
           padding-left: 1vw;
           padding-top: 0vh;
           padding-bottom: 0vh;
-
-
-
-
-
         }
-
 
         /* project page stuff*/
-        .project-title {
-          text-align: center;
-          margin-top: 1rem;
-        }
-
         /* sets a min margin width and max margin width*/
         .page-content-max {
           margin: clamp(2em, 2em, 100%);
@@ -181,27 +169,20 @@
           max-width: var(--contentmax);
           background-color: var(--primary-transparent);
           box-shadow: var(--shadow);
-          padding-top: 1em;
-          border-radius: 2em;
-        }
-
-        /*changes to page-content div that only apply to the index/home file*/
-
-        #homePageContent{
-          background-color: var(--nothing);
-          box-shadow: var(--nothing);
+          padding-top: 1vmin;
+          border-radius: 2rem;
         }
 
         .project-blurb {
-          padding: 2em;
-          margin: 2em;
+          padding: 1rem;
+          margin: 2rem;
           box-shadow: var(--shadow);
           background-color: var(--secondary);
-          border-radius: 2em;
+          border-radius: 2rem;
         }
 
         .project-details {
-          padding: 2em;
+          padding: 2rem;
           /*column-count: 2;*/
         }
 
@@ -258,7 +239,7 @@
           left: 0;
           border-bottom-style: solid ;
           border-color: var(--text-transparent);
-          border-width: 0.001rem;
+          border-width: 1;
 
         }
 
@@ -273,7 +254,7 @@
         .topnav a:link {
           color: var(--text);
 
-          padding: 0.5rem;
+          padding: 0.4rem;
         }
 
         /* visited link in the topnav*/
@@ -326,7 +307,6 @@
 
         #nav-links>.nav-link>.nav-link-label {
           color: var(--text);
-          font-size: 1.25rem;
           margin: 0rem;
           text-transform: uppercase;
         }
@@ -381,7 +361,6 @@
           top: 50%;
           transform: translate(-50%, -50%) scale(0.9);
           color: var(--text);
-          font-size: 1.75rem;
           opacity: 0;
           transition: transform, opacity;
           transition-timing-function: ease;
