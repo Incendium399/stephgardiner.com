@@ -1,68 +1,68 @@
+        :root{
+
+           /* MY COLOURS*/
+           --text: #effbf3;
+           --text-transparent: rgba(239, 251, 243, 5%);
+           --nothing: rgba(0, 0, 0, 0%);
+
+           --primary: #40ceb9;
+           --primary-transparent: rgba(64, 206, 185, 20%);
+           --secondary: #200818;
+           --secondary-transparent: rgba(32, 8, 24, 20%);
+           --accent: #c33248;
+           --accent-transparent: rgba(195, 50, 72, 20%);
+ 
+           --shadow: 0em 0.1em 0.3em black;
+ 
+           --contentmax: 1;
+           --marginmin: 0;
+ 
+           --myfont: "Poppins", sans-serif;
+
+           font-size: 1;
+
+
+          --background: #010402;
+          background-color: var(--background);
+        }
+        
         body {
           margin: 0;
-          background-color: var(--background);
-
-          /* MY COLOURS*/
-          --text: #effbf3;
-          --text-transparent: rgba(239, 251, 243, 5%);
-          --nothing: rgba(0, 0, 0, 0%);
-          --background: #010402;
-          --primary: #40ceb9;
-          --primary-transparent: rgba(64, 206, 185, 20%);
-          --secondary: #200818;
-          --secondary-transparent: rgba(32, 8, 24, 20%);
-          --accent: #c33248;
-          --accent-transparent: rgba(195, 50, 72, 20%);
-
-          --shadow: 0rem 0.1rem 0.3rem black;
-
-          --contentmax: 1;
-          --marginmin: 0;
-
-          --myfont: "Poppins", sans-serif;
+          font-size: 1;
+          border: 1px solid red;
 
         }
-
-
-
-        /*.my-font {
-          font-family: "Poppins", sans-serif;
-        }*/
 
         footer {
-          position: relative;
-
-          bottom: 0;
-          background: var(--secondary);
+          margin: 0;
           width: 100%;
+          bottom: 0;
+          font-size: 1;
+          position: relative;
+          background: var(--secondary);
+          border: 1px solid blue;
+
         }
-
-
 
         /* huge title text*/
         h1 {
+          border: 1px solid blue ;
           background-image: linear-gradient(to right, var(--accent), var(--primary));
           -webkit-background-clip: text;
           background-clip: text;
           -webkit-text-fill-color: transparent;
           color: transparent;
 
-          
           text-transform: uppercase;
           font-weight: 900;
 
           text-align: center;
           font-style: bold;
 
-
-          padding-left: 5vw;
-          padding-top: 5vh;
-          padding-bottom: 0vh;
-          letter-spacing: 5px;
-
           margin: 0px;
           text-align: left;
-          font-size: 60;
+          font-size:15dvw;
+          line-height: 0.8em;
 
           font-family: var(--myfont);
         }
@@ -75,9 +75,9 @@
           font-weight: 900;
           font-family: var(--myfont);
 
-          padding-left: 0rem;
+          padding-left: 0em;
           /*padding-top: 1rem;*/
-          padding-bottom: 0rem;
+          padding-bottom: 0em;
           /*letter-spacing: 5px;*/
 
           font-size: 10vmin;
@@ -85,11 +85,14 @@
           /* padding: 0;*/
           margin: 0;
 
+          border: 1px solid green;
+
 
         }
 /* project title is usually a h2 or h3 */
         .project-title {
           text-align: center;
+          font-size: 0;
         }
 
         h3 {
@@ -137,7 +140,7 @@
 
           text-align: justify;
           text-align-last: left;
-          font-size: 100;
+          font-size: 1;
 
         }
 
@@ -161,6 +164,7 @@
         /* sets a min margin width and max margin width*/
         .page-content-max {
           margin: clamp(2em, 2em, 100%);
+          border: 1px solid pink;
         }
 
         /*makes it center aligned and gives a max width for any content*/
@@ -171,6 +175,8 @@
           box-shadow: var(--shadow);
           padding-top: 1vmin;
           border-radius: 2rem;
+
+          border: 1px solid magenta;
         }
 
         .project-blurb {
