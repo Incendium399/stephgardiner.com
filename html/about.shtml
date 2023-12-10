@@ -27,7 +27,7 @@
   <h2>About Me</h2>
   <p>Hi! My name is Steph Gardiner ahhhh</p>
 
-  #include file="footer.html"
+  <!--#include file="footer.html"-->
 
 </body>
 
