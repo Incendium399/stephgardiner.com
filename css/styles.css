@@ -133,7 +133,7 @@
           font-weight: 900;
           font-family: var(--myfont);
 
-          padding-left: 5vw;
+          padding-left: 0vw;
           padding-top: 0vh;
           padding-bottom: 0vh;
 
@@ -152,6 +152,10 @@
           text-align-last: left;
           font-size: 1;
 
+        }
+
+        .article h3{
+          text-align: left;
         }
 
         ul {
