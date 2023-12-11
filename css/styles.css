@@ -195,20 +195,22 @@
           padding-top: 1vmin;
           border-radius: 2rem;
 
-          border: 1px solid magenta;
+          border: 1px solid yellow;
         }
 
         .project-blurb {
           padding: 1rem;
-          margin: 2rem;
+          margin: 1rem;
           box-shadow: var(--shadow);
           background-color: var(--secondary);
           border-radius: 2rem;
         }
 
         .project-details {
-          padding: 2rem;
+          padding: 1rem;
           /*column-count: 2;*/
+          border: 1px solid magenta;
+        
         }
 
         .project-details p {
@@ -223,10 +225,16 @@
           column-span: none;
         }
 
-        .video-wrapper {          
+        .video-wrapper {        
           box-shadow: var(--shadow);
           position: relative;
           padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+        }
+
+        iframe{
+          width: 100%;
+          height: 100%;
+          border: 1px solid pink;
         }
 
         .project-video iframe {
@@ -235,7 +243,21 @@
           left: 0;
           width: 100%;
           height: 100%;
+          border: 1px solid white;
         }
+
+        .project-play{
+          box-shadow: var(--shadow);
+          background-color: var(--primary);
+          border-radius: 2rem;
+          margin: auto;
+          margin-bottom: 2em;
+          padding: 1em;
+          width: 12em;
+          text-align: center;
+        }
+
+
 
         .project-collage {
           margin: 2em;
@@ -260,7 +282,7 @@
           background-color: var(--background);
           box-shadow: var(--shadow);
           padding: 1rem;
-          font-weight: 500;
+          
           font-family: "Poppins", sans-serif;
           position: fixed;
           top: 0;
@@ -313,7 +335,7 @@
         }
 
         a:hover {
-          background-image: linear-gradient(to right, var(--text), var(--secondary));
+          background-image: linear-gradient(to right, var(--primary), var(--secondary));
           -webkit-background-clip: text;
           background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -321,86 +343,4 @@
         }
 
 
-        #nav-links {
-          display: flex;
-          gap: clamp(1rem, 2vw, 2rem);
-          margin-top: clamp(2rem, 2vw, 3rem);
-          padding: 0rem clamp(1rem, 2vw, 2rem);
-          transform: translateY(70%) scale(0.9);
-          transition: transform 500ms cubic-bezier(.13, .53, .38, .97);
-        }
-
-        body[data-nav="true"]>nav>#nav-links {
-          transform: translateY(0%) scale(1);
-        }
-
-        #nav-links>.nav-link {
-          text-decoration: none;
-        }
-
-        #nav-links>.nav-link>.nav-link-label {
-          color: var(--text);
-          margin: 0rem;
-          text-transform: uppercase;
-        }
-
-        #nav-links>.nav-link>.nav-link-image {
-          width: max(20vw, 400px);
-          aspect-ratio: 1.8 / 1;
-          border-radius: 0.5rem;
-          margin-top: 0.75rem;
-          object-fit: cover;
-        }
-
-        #nav-toggle {
-          height: 5rem;
-          width: 5rem;
-          position: fixed;
-          z-index: 3;
-          left: 50%;
-          bottom: 3rem;
-          transform: translateX(-50%);
-          background-color: var(--primary);
-          border: none;
-          border-radius: 5rem;
-          outline: none;
-          box-shadow: 0rem 0rem 4rem rgba(0 0 0 / 35%);
-          cursor: pointer;
-          transition: transform, background-color;
-          transition-timing-function: ease;
-          transition-duration: 400ms;
-        }
-
-        #nav-toggle:hover {
-          transform: translateX(-50%) scale(1.04);
-        }
-
-        #nav-toggle:active {
-          transform: translateX(-50%) scale(0.96);
-        }
-
-        body[data-nav="true"]>#nav-toggle {
-          background-color: var(--background);
-        }
-
-        body:not([data-nav="true"])>#nav-toggle:hover>.open {
-          opacity: 1;
-          transform: translate(-50%, -50%) scale(1);
-        }
-
-        #nav-toggle>i {
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%) scale(0.9);
-          color: var(--text);
-          opacity: 0;
-          transition: transform, opacity;
-          transition-timing-function: ease;
-          transition-duration: 400ms;
-        }
-
-        body[data-nav="true"]>#nav-toggle>.close {
-          opacity: 1;
-          transform: translate(-50%, -50%) scale(1);
-        }
+       
