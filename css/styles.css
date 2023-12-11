@@ -24,8 +24,8 @@
 }
 
 body {
-  --contentmax: 1;
-  --marginmin: 0;
+  --contentmax: 100%;
+  --marginmin: 1rem;
 
   margin: 0;
   font-size: 1;
@@ -160,7 +160,7 @@ li {
   font-weight: 400;
   font-family: var(--myfont);
 
-  padding-left: 1vw;
+  /*padding-left: -2em;*/
   padding-top: 0vh;
   padding-bottom: 0vh;
 }
@@ -168,7 +168,7 @@ li {
 /* project page stuff*/
 /* sets a min margin width and max margin width*/
 .page-content-max {
-  margin: clamp(20em, 1em, 60%);
+  margin: clamp(1%, 10%, 60%);
   margin-top: 0;
   border: 1px solid pink;
 }
@@ -200,14 +200,15 @@ li {
 }
 
 .project-details p {
-  padding-left: 1em;
+  /*padding-left: 1em;*/
 }
 
 .project-details h4 {
-  padding-left: 1em;
+  /*padding-left: 1em;*/
 }
 
 .project-details ul {
+  padding-left: -1em;
   column-span: none;
 }
 
@@ -219,7 +220,6 @@ li {
   height: 100%;
 
   box-shadow: var(--shadow);
-  background: pink;
   position: relative;
   padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
 }
@@ -227,9 +227,6 @@ li {
 iframe {
   height: 100%;
   width: 100%;
-
-  border: 1px solid pink;
-  background: blue;
 }
 
 .project-video {
@@ -238,8 +235,6 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid white;
-  background: magenta;
 }
 
 #myTopnav {
@@ -252,18 +247,13 @@ iframe {
   height: 3rem;
 }
 
-/*.nav iframe {
-  height: unset;
-  
-  
-} */
-
 .project-play {
   box-shadow: var(--shadow);
   background-color: var(--primary);
   border-radius: 2rem;
   margin: auto;
   margin-bottom: 2em;
+  margin-top: 2em;
   padding: 1em;
   width: 12em;
   text-align: center;
@@ -273,10 +263,26 @@ iframe {
   margin: 2em;
 }
 
+.gallery {
+  width: 100%;
+  display: grid;
+  /*grid-template-columns: 1fr auto;
+  grid-template-rows: 2fr auto;
+  grid-gap: 5px;*/
+}
+.gallery_img{
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: magenta;
+}
+
 img {
   box-shadow: var(--shadow);
   width: 100%;
-  margin-bottom: 2em;
+  height: 100%;
+  
 }
 
 nav {
