@@ -1,346 +1,324 @@
-        :root{
+:root {
+  /* MY COLOURS*/
+  --text: #effbf3;
+  --text-transparent: rgba(239, 251, 243, 5%);
+  --nothing: rgba(0, 0, 0, 0%);
 
-           /* MY COLOURS*/
-           --text: #effbf3;
-           --text-transparent: rgba(239, 251, 243, 5%);
-           --nothing: rgba(0, 0, 0, 0%);
+  --primary: #40ceb9;
+  --primary-transparent: rgba(64, 206, 185, 20%);
+  --secondary: #200818;
+  --secondary-transparent: rgba(32, 8, 24, 20%);
+  --accent: #c33248;
+  --accent-transparent: rgba(195, 50, 72, 20%);
 
-           --primary: #40ceb9;
-           --primary-transparent: rgba(64, 206, 185, 20%);
-           --secondary: #200818;
-           --secondary-transparent: rgba(32, 8, 24, 20%);
-           --accent: #c33248;
-           --accent-transparent: rgba(195, 50, 72, 20%);
- 
-           --shadow: 0em 0.1em 0.3em black;
- 
-           --contentmax: 1;
-           --marginmin: 0;
- 
-           --myfont: "Poppins", sans-serif;
+  --shadow: 0em 0.1em 0.3em black;
 
-           font-size: 1;
+  --contentmax: 1;
+  --marginmin: 0;
 
+  --myfont: "Poppins", sans-serif;
 
-          --background: #010402;
-          background-color: var(--background);
-        }
-        
-        body {
-          margin: 0;
-          font-size: 1;
-          border: 1px solid red;
+  font-size: 1;
 
-        }
+  --background: #010402;
+  background-color: var(--background);
+}
 
-        footer {
-          margin: 0;
-          width: 100%;
-          bottom: 0;
-          font-size: 1;
-          position: relative;
-          background: var(--secondary);
-          border: 1px solid blue;
+body {
+  margin: 0;
+  font-size: 1;
+  border: 1px solid red;
+}
 
-        }
+footer {
+  margin: 0;
+  width: 100%;
+  bottom: 0;
+  font-size: 1;
+  position: relative;
+  background: var(--secondary);
+  border: 1px solid blue;
+}
 
-        /* huge title text*/
-        h1 {
-          border: 1px solid blue ;
+/* huge title text*/
+h1 {
+  border: 1px solid blue;
 
-          text-align: center;
-          font-style: bold;
+  text-align: center;
+  font-style: bold;
 
-          /*margin: 0px;*/
-          text-align: left;
-          
-          line-height: 1em;
+  /*margin: 0px;*/
+  text-align: left;
 
-          letter-spacing: 10px;
-          
-          text-transform: uppercase;
-          font-family: var(--myfont);
-          font-size:15dvw;
-          font-weight: 900;
+  line-height: 1em;
 
-          color: var(--primary);
-          text-shadow: 
-              1px 1px 1px var(--text),
-              2px 2px 2px var(--text),
-              3px 3px 3px var(--text),
-              4px 4px 1px var(--text),
-              5px 5px 1px var(--text),
-              6px 6px 1px var(--text),
-              7px 7px 1px var(--text),
-              8px 8px 1px var(--text),
-              9px 9px 1px var(--text),
-              10px 10px 1px var(--text);
-        }
+  letter-spacing: 10px;
 
-        h2 {
-          border: 1px solid blue ;
+  text-transform: uppercase;
+  font-family: var(--myfont);
+  font-size: 15dvw;
+  font-weight: 900;
 
-          color: var(--text);
-          text-shadow: var(--shadow);
-          text-transform: uppercase;
-          font-weight: 900;
-          font-family: var(--myfont);
+  color: var(--primary);
+  text-shadow: 1px 1px 1px var(--text), 2px 2px 2px var(--text),
+    3px 3px 3px var(--text), 4px 4px 1px var(--text), 5px 5px 1px var(--text),
+    6px 6px 1px var(--text), 7px 7px 1px var(--text), 8px 8px 1px var(--text),
+    9px 9px 1px var(--text), 10px 10px 1px var(--text);
+}
 
-          padding-left: 0em;
-          /*padding-top: 1rem;*/
-          padding-bottom: 0em;
-          /*letter-spacing: 5px;*/
+h2 {
+  border: 1px solid blue;
 
-          font-size: 10vmin;
+  color: var(--text);
+  text-shadow: var(--shadow);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: var(--myfont);
 
-          /* padding: 0;*/
-          margin: 0;
+  padding-left: 0em;
+  /*padding-top: 1rem;*/
+  padding-bottom: 0em;
+  /*letter-spacing: 5px;*/
 
-          border: 1px solid green;
+  font-size: 10vmin;
 
+  /* padding: 0;*/
+  margin: 0;
 
-        }
+  border: 1px solid green;
+}
 /* project title is usually a h2 or h3 */
-        .project-title {
-          text-align: center;
-          font-size: 0;
-        }
+.project-title {
+  text-align: center;
+  font-size: 0;
+}
 
-        h3 {
-          /*background-color: var(--primary);
+h3 {
+  /*background-color: var(--primary);
           */
-          border: 1px solid blue ;
-          text-align: center;
-          text-shadow: var(--shadow);
+  border: 1px solid blue;
+  text-align: center;
+  text-shadow: var(--shadow);
 
-          color: var(--text);
-          font-weight: 900;
-          font-family: var(--myfont);
+  color: var(--text);
+  font-weight: 900;
+  font-family: var(--myfont);
 
-          /*padding-left: 5vw;*/
-          padding-top: 0vh;
-          padding-bottom: 0vh;
-          /*letter-spacing: 5px;*/
+  /*padding-left: 5vw;*/
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  /*letter-spacing: 5px;*/
 
-          font-size: 40;
+  font-size: 40;
 
-          margin: 0;
-        }
+  margin: 0;
+}
 
-        h4 {
-          border: 1px solid blue ;
-          /*background-color: var(--secondary);*/
-          text-shadow: var(--shadow);
-          color: var(--text);
-          text-transform: uppercase;
-          font-weight: 900;
-          font-family: var(--myfont);
+h4 {
+  border: 1px solid blue;
+  /*background-color: var(--secondary);*/
+  text-shadow: var(--shadow);
+  color: var(--text);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: var(--myfont);
 
-          padding-left: 0vw;
-          padding-top: 0vh;
-          padding-bottom: 0vh;
+  padding-left: 0vw;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
 
-          font-size: 40;
+  font-size: 40;
 
-          margin: 0;
+  margin: 0;
+}
 
-        }
+p {
+  border: 1px solid blue;
+  color: var(--text);
+  font-weight: 400;
+  font-family: var(--myfont);
 
-        p {
-          border: 1px solid blue ;
-          color: var(--text);
-          font-weight: 400;
-          font-family: var(--myfont);
+  text-align: justify;
+  text-align-last: left;
+  font-size: 1;
+  margin: 0;
+}
 
-          text-align: justify;
-          text-align-last: left;
-          font-size: 1;
-          margin: 0;
+.article h3 {
+  text-align: left;
+}
 
-        }
+ul {
+  /*padding-left: 8vw;*/
+  margin-top: 0;
+}
 
-        .article h3{
-          text-align: left;
-        }
+li {
+  color: var(--text);
+  font-weight: 400;
+  font-family: var(--myfont);
 
-        ul {
-          /*padding-left: 8vw;*/
-          margin-top: 0;
-        }
+  padding-left: 1vw;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+}
 
-        li {
+/* project page stuff*/
+/* sets a min margin width and max margin width*/
+.page-content-max {
+  margin: clamp(2em, 2em, 100%);
+  border: 1px solid pink;
+}
 
-          color: var(--text);
-          font-weight: 400;
-          font-family: var(--myfont);
+/*makes it center aligned and gives a max width for any content*/
+.page-content {
+  margin: auto;
+  max-width: var(--contentmax);
+  background-color: var(--primary-transparent);
+  box-shadow: var(--shadow);
+  padding-top: 1vmin;
+  border-radius: 2rem;
 
-          padding-left: 1vw;
-          padding-top: 0vh;
-          padding-bottom: 0vh;
-        }
+  border: 1px solid yellow;
+}
 
-        /* project page stuff*/
-        /* sets a min margin width and max margin width*/
-        .page-content-max {
-          margin: clamp(2em, 2em, 100%);
-          border: 1px solid pink;
-        }
+.project-blurb {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: var(--shadow);
+  background-color: var(--secondary);
+  border-radius: 2rem;
+}
 
-        /*makes it center aligned and gives a max width for any content*/
-        .page-content {
-          margin: auto;
-          max-width: var(--contentmax);
-          background-color: var(--primary-transparent);
-          box-shadow: var(--shadow);
-          padding-top: 1vmin;
-          border-radius: 2rem;
+.project-details {
+  padding: 1rem;
+  /*column-count: 2;*/
+  border: 1px solid magenta;
+}
 
-          border: 1px solid yellow;
-        }
+.project-details p {
+  padding-left: 1em;
+}
 
-        .project-blurb {
-          padding: 1rem;
-          margin: 1rem;
-          box-shadow: var(--shadow);
-          background-color: var(--secondary);
-          border-radius: 2rem;
-        }
+.project-details h4 {
+  padding-left: 1em;
+}
 
-        .project-details {
-          padding: 1rem;
-          /*column-count: 2;*/
-          border: 1px solid magenta;
-        
-        }
+.project-details ul {
+  column-span: none;
+}
 
-        .project-details p {
-          padding-left: 1em;
-        }
+.video-wrapper {
+  box-shadow: var(--shadow);
+  background: pink;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+}
 
-        .project-details h4 {
-          padding-left: 1em;
-        }
-
-        .project-details ul {
-          column-span: none;
-        }
-
-        .video-wrapper {        
-          box-shadow: var(--shadow);
-          position: relative;
-          padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
-        }
-
-        iframe{
-          width: 100%;
-          height: 100%;
-          border: 1px solid pink;
-        }
-
-        .project-video iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          border: 1px solid white;
-        }
-
-        .project-play{
-          box-shadow: var(--shadow);
-          background-color: var(--primary);
-          border-radius: 2rem;
-          margin: auto;
-          margin-bottom: 2em;
-          padding: 1em;
-          width: 12em;
-          text-align: center;
-        }
+iframe {
+  width: 100%;
+  height: 100%;
 
 
+  border: 1px solid pink;
+  background:blue;
+  
+}
 
-        .project-collage {
-          margin: 2em;
-        }
+.project-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  background: magenta;
+}
 
-        img {          
-          box-shadow: var(--shadow);
-          width: 100%;
-          margin-bottom: 2em;
-        }
+.project-play {
+  box-shadow: var(--shadow);
+  background-color: var(--primary);
+  border-radius: 2rem;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 12em;
+  text-align: center;
+}
 
+.project-collage {
+  margin: 2em;
+}
 
+img {
+  box-shadow: var(--shadow);
+  width: 100%;
+  margin-bottom: 2em;
+}
 
+nav{
+  margin: 0;
+  padding: 0;
+}
 
+/* the link behavior for the top nav*/
+.topnav {
+  background-color: var(--background);
+  box-shadow: var(--shadow);
+  padding: 1rem;
 
-        body[data-nav="true"]>main {
-          transform: translateY(-50%);
-        }
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom-style: solid;
+  border-color: var(--text-transparent);
+  border-width: 1;
+}
 
-        /* the link behavior for the top nav*/
-        nav {
-          background-color: var(--background);
-          box-shadow: var(--shadow);
-          padding: 1rem;
-          
-          font-family: "Poppins", sans-serif;
-          position: fixed;
-          top: 0;
-          right: 0;
-          left: 0;
-          border-bottom-style: solid ;
-          border-color: var(--text-transparent);
-          border-width: 1;
+.topnav a {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
-        }
+/* unvisited link in the topnav*/
+.topnav a:link {
+  color: var(--text);
 
-        .topnav a {
-          font-weight: 700;
-          text-transform: uppercase;
-          text-decoration: none;
+  padding: 0.4rem;
+}
 
-        }
+/* visited link in the topnav*/
+.topnav a:visited {
+  color: var(--text);
+}
 
-        /* unvisited link in the topnav*/
-        .topnav a:link {
-          color: var(--text);
+/* mouse over link in the topnav*/
+.topnav a:hover {
+  background-image: linear-gradient(to right, var(--text), var(--primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
 
-          padding: 0.4rem;
-        }
+/* selected link in the topnav*/
+.topnav a:active {
+  color: var(--secondary);
+}
 
-        /* visited link in the topnav*/
-        .topnav a:visited {
-          color: var(--text);
-        }
+/*other links*/
+a:link {
+  color: var(--text);
+  text-decoration: none;
+}
 
-        /* mouse over link in the topnav*/
-        .topnav a:hover {       
-          background-image: linear-gradient(to right, var(--text), var(--primary));
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          color: transparent;
-        }
-
-        /* selected link in the topnav*/
-        .topnav a:active {
-          color: var(--secondary)
-        }
-
-        /*other links*/
-        a:link {
-          color: var(--text);
-          text-decoration: none;
-
-        }
-
-        a:hover {
-          background-image: linear-gradient(to right, var(--primary), var(--secondary));
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          color: transparent;
-        }
-
-
-       
+a:hover {
+  background-image: linear-gradient(to right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
