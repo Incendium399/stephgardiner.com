@@ -13,8 +13,7 @@
 
   --shadow: 0em 0.1em 0.3em black;
 
-  --contentmax: 1;
-  --marginmin: 0;
+
 
   --myfont: "Poppins", sans-serif;
 
@@ -25,6 +24,9 @@
 }
 
 body {
+  --contentmax: 1;
+  --marginmin: 0;
+
   margin: 0;
   font-size: 1;
   border: 1px solid red;
@@ -166,7 +168,8 @@ li {
 /* project page stuff*/
 /* sets a min margin width and max margin width*/
 .page-content-max {
-  margin: clamp(2em, 2em, 100%);
+  margin: clamp(20em, 1em, 60%);
+  margin-top: 0;
   border: 1px solid pink;
 }
 
