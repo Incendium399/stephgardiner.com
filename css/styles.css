@@ -209,6 +209,12 @@ li {
 }
 
 .video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
   box-shadow: var(--shadow);
   background: pink;
   position: relative;
@@ -216,16 +222,14 @@ li {
 }
 
 iframe {
-  width: 100%;
   height: 100%;
-
+  width: 100%;
 
   border: 1px solid pink;
-  background:blue;
-  
+  background: blue;
 }
 
-.project-video iframe {
+.project-video {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,6 +238,22 @@ iframe {
   border: 1px solid white;
   background: magenta;
 }
+
+#myTopnav {
+  width: 100%;
+  height: 4rem;
+}
+
+#myFooter {
+  width: 100%;
+  height: 3rem;
+}
+
+/*.nav iframe {
+  height: unset;
+  
+  
+} */
 
 .project-play {
   box-shadow: var(--shadow);
@@ -256,7 +276,7 @@ img {
   margin-bottom: 2em;
 }
 
-nav{
+nav {
   margin: 0;
   padding: 0;
 }
