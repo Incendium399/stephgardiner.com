@@ -150,6 +150,7 @@ p {
   text-align-last: left;
   font-size: 1;
   margin: 0;
+  margin-bottom: 1rem;
 }
 
 .article h3 {
@@ -216,7 +217,7 @@ article{
 }
 
 .project-details h4 {
-  padding-top: 1em;
+  /*padding-top: 1em;*/
   /*padding-left: 1em;*/
 }
 
