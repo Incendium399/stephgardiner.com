@@ -42,6 +42,11 @@ footer {
   border: 1px solid blue;
 }
 
+footer > p{
+  text-align: center;
+  padding-left: 1rem;
+}
+
 /* huge title text*/
 h1 {
   border: 1px solid blue;
