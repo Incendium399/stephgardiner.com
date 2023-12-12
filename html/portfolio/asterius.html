@@ -18,7 +18,9 @@
   </head>
 
   <body>
-    <iframe class="nav" src="..\nav.html" frameborder="0"></iframe>
+    <div id="myTopnav">
+      <iframe class="nav" src="..\nav.html" frameborder="0"></iframe>
+    </div>
 
     <div class="project-title">
       <h2>Asterius</h2>
@@ -26,6 +28,26 @@
 
     <div class="page-content-max">
       <div class="page-content">
+        <div class="video-wrapper">
+          <div class="project-video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/1cYj1wH3T5A?si=0sBrEK4-Y5AymZtv"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="project-play">
+          <a href="...">
+            <h3>Play on SOMETHING HERE</h3>
+          </a>
+        </div>
+
         <div class="project-blurb">
           <p>
             Asterius is a project that was completed over 4 weeks during a
@@ -79,17 +101,32 @@
           </iframe>
         </div>
 
-        <div class="project-collage">
-          <img src="\..\images\asterius\asterius1.png" />
-          <img src="\..\images\asterius\asterius2.png" />
-          <img src="\..\images\asterius\asterius3.png" />
-          <img src="\..\images\asterius\asterius4.png" />
-          <img src="\..\images\asterius\asterius5.png" />
-          <img src="\..\images\asterius\asterius6.png" />
+        <div class="gallery">
+          <figure class="gallery_item gallery_item--1">
+            <img src="\..\images\asterius\asterius1.png" class="gallery_img" />
+          </figure>
+          <figure class="gallery_item gallery_item--2">
+            <img src="\..\images\asterius\asterius2.png" class="gallery_img" />
+          </figure>
+          <figure class="gallery_item gallery_item--3">
+            <img src="\..\images\asterius\asterius3.png" class="gallery_img" />
+          </figure>
+          <figure class="gallery_item gallery_item--4">
+            <img src="\..\images\asterius\asterius4.png" class="gallery_img" />
+          </figure>
+          <figure class="gallery_item gallery_item--5">
+            <img src="\..\images\asterius\asterius5.png" class="gallery_img" />
+          </figure>
+          <figure class="gallery_item gallery_item--6">
+            <img src="\..\images\asterius\asterius6.png" class="gallery_img" />
+          </figure>
         </div>
       </div>
     </div>
 
-    <iframe class="footer" src="../footer.html" frameborder="0"></iframe>
+    <div id="myFooter">
+        <iframe class="footer" src="../footer.html" frameborder="0"></iframe> 
+    </div>
+    
   </body>
 </html>

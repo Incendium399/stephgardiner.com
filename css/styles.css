@@ -29,7 +29,7 @@ body {
 
   margin: 0;
   font-size: 1;
-  border: 1px solid red;
+  
 }
 
 footer {
@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-  border: 1px solid blue;
+  
 
   color: var(--text);
   text-shadow: var(--shadow);
@@ -91,18 +91,20 @@ h2 {
   /* padding: 0;*/
   margin: 0;
 
-  border: 1px solid green;
+  
 }
 /* project title is usually a h2 or h3 */
 .project-title {
   text-align: center;
   font-size: 0;
+  padding-top: 4rem;
+  
 }
 
 h3 {
   /*background-color: var(--primary);
           */
-  border: 1px solid blue;
+  
   text-align: center;
   text-shadow: var(--shadow);
 
@@ -121,7 +123,7 @@ h3 {
 }
 
 h4 {
-  border: 1px solid blue;
+  
   /*background-color: var(--secondary);*/
   text-shadow: var(--shadow);
   color: var(--text);
@@ -139,7 +141,7 @@ h4 {
 }
 
 p {
-  border: 1px solid blue;
+  
   color: var(--text);
   font-weight: 400;
   font-family: var(--myfont);
@@ -178,7 +180,7 @@ article{
 .page-content-max {
   margin: clamp(1%, 10%, 60%);
   margin-top: 0;
-  border: 1px solid pink;
+  
 }
 
 /*makes it center aligned and gives a max width for any content*/
@@ -191,7 +193,7 @@ article{
   border-radius: 2rem;
   padding: 1rem;
 
-  border: 1px solid yellow;
+  
 }
 
 .project-blurb {
@@ -204,8 +206,9 @@ article{
 
 .project-details {
   
+  margin: 1rem;
   /*column-count: 2;*/
-  border: 1px solid magenta;
+  
 }
 
 .project-details p {
@@ -213,6 +216,7 @@ article{
 }
 
 .project-details h4 {
+  padding-top: 1em;
   /*padding-left: 1em;*/
 }
 
@@ -249,11 +253,13 @@ iframe {
 #myTopnav {
   width: 100%;
   height: 4rem;
+  position: fixed;
 }
 
 #myFooter {
   width: 100%;
-  height: 4rem;
+  height: 1.5rem;
+  
 }
 
 .project-play {
