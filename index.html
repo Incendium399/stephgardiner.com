@@ -8,7 +8,12 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Steph Gardiner | Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,87 +35,132 @@
       <iframe class="nav" src="html\nav.html" frameborder="0"></iframe>
     </div>
 
-    <div class="page-content-max">
-      <div class="project-title"></div>
+    <div class="project-title" id="myName">
       <h2>Steph Gardiner</h2>
       <h5>Game Designer</h5>
-
-      <div class="page-content" id="homePageContent">
-
-        <div class="project-play">
-          <a src="html/about.html">
-            <h3>About Me</h3>
-          </a>
+    </div>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+  
+        <div class="item active">
+          <article>
+            <a href="html/portfolio/nomorepink.html">
+              <img src="/../images/nomorepink/nomorepink3.png" alt="Gameplay screenshot of No More Pink">
+                <h4>No More Pink</h4>
+                <p>Rhythm, bullet-hell</p>                
+            </a>
+          </article>                
+        </div>
+  
+        <div class="item">
+          <article>
+            <a href="html/portfolio/wheninrome.html">
+              <img src="/../images/wheninrome/wheninrome5.png" />
+              <h4>When In Rome</h4>
+              <p>Isometric dungeon-crawler</p>
+            </a>
+          </article>
+        </div>
+      
+        <div class="item">
+          <article>
+            <a href="html/portfolio/treehousetutor.html">
+              <img src="\images\treehousetutor\treehousetutor1.jpg" />
+              <h4>Treehouse Tutor</h4>
+              <p>Educational</p>
+            </a>
+          </article>
         </div>
 
-        <article>
-          <a href="html/portfolio/nomorepink.html">
-            <img src="/../images/nomorepink/nomorepink3.png" />
-            <h4>No More Pink</h4>
-            <p>Rhythm, bullet-hell</p>
-          </a>
-        </article>
+        <div class="item">
+          <article>
+            <a href="html/portfolio/heraldandshield.html">
+              <img src="/../images\heraldandshield\herald5.png" />
+              <h4>the Herald & the Shield</h4>
+              <p>Isometric, dungeon-crawler</p>
+            </a>
+          </article>
+        </div>
 
-        <article>
-          <a href="html/portfolio/wheninrome.html">
-            <img src="/../images/wheninrome/wheninrome5.png" />
-            <h4>When In Rome</h4>
-            <p>Isometric dungeon-crawler</p>
-          </a>
-        </article>
+        <div class="item">
+          <article>
+            <a href="html/portfolio/planthusbandry.html">
+              <img src="/../images\planthusbandry\plant3.png" />
+              <h4>Plant Husbandry</h4>
+              <p>Business management, dating-sim</p>
+            </a>
+          </article>
+        </div>
 
-        <article>
-          <a href="html/portfolio/treehousetutor.html">
-            <img src="\images\treehousetutor\treehousetutor1.jpg" />
-            <h4>Treehouse Tutor</h4>
-            <p>Educational</p>
-          </a>
-        </article>
+        <div class="item">
+          <article>
+            <a href="html/portfolio/foxhunt.html">
+              <img src="/../images\foxhunt\foxhunt4.png" />
+              <h4>Fox Hunt</h4>
+              <p>Isometric stealth</p>
+            </a>
+          </article>
+        </div>
 
-        <article>
-          <a href="html/portfolio/heraldandshield.html">
-            <img src="/../images\heraldandshield\herald5.png" />
-            <h4>the Herald & the Shield</h4>
-            <p>Isometric, dungeon-crawler</p>
-          </a>
-        </article>
+        <div class="item">
+          <article>
+            <a href="html/portfolio/asterius.html">
+              <img src="\..\images\asterius\asterius1.png" />
+              <h4>Asterius</h4>
+              <p>1st-person puzzle</p>
+            </a>
+          </article>
+        </div>
 
-        <article>
-          <a href="html/portfolio/planthusbandry.html">
-            <img src="/../images\planthusbandry\plant3.png" />
-            <h4>Plant Husbandry</h4>
-            <p>Business management, dating-sim</p>
-          </a>
-        </article>
+        <div class="item">
+          <article>
+            <a href="html/portfolio/skeletonsinthecellar.html">
+              <img src="/../images\skeletonsinthecellar\skeletons2.png" />
+              <h4>Skeletons in the Cellar</h4>
+              <p>Horror survival</p>
+            </a>
+          </article>
+        </div>
+    
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-        <article>
-          <a href="html/portfolio/foxhunt.html">
-            <img src="/../images\foxhunt\foxhunt4.png" />
-            <h4>Fox Hunt</h4>
-            <p>Isometric stealth</p>
-          </a>
-        </article>
+    <div class="page-content-max">
 
-        <article>
-          <a href="html/portfolio/asterius.html">
-            <img src="\..\images\asterius\asterius1.png" />
-            <h4>Asterius</h4>
-            <p>1st-person puzzle</p>
-          </a>
-        </article>
-
-        <article>
-          <a href="html/portfolio/skeletonsinthecellar.html">
-            <img src="/../images\skeletonsinthecellar\skeletons2.png" />
-            <h4>Skeletons in the Cellar</h4>
-            <p>Horror survival</p>
-          </a>
-        </article>
+      <div class="project-play">
+        <a src="html/about.html">
+          <h3>About Me</h3>
+        </a>
       </div>
     </div>
 
     <div id="myFooter">
       <iframe class="footer" src="../footer.html" frameborder="0"></iframe>
     </div>
+
   </body>
 </html>

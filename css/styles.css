@@ -29,6 +29,8 @@ body {
 
   margin: 0;
   font-size: 1;
+
+  background: var(--background  );
   
 }
 
@@ -100,6 +102,13 @@ h2 {
   padding-top: 4rem;
   
 }
+
+#myName{
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.pro
 
 h3 {
   /*background-color: var(--primary);
@@ -304,6 +313,15 @@ iframe {
   right: 0;
   left: 0;
   top: 0;
+}
+#headshot {
+  width: 30%;
+
+}
+
+#headshot > img{
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 #myTopnav {
