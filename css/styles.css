@@ -225,7 +225,7 @@ article{
 /* project page stuff*/
 /* sets a min margin width and max margin width*/
 .page-content-max {
-  margin: clamp(1%, 10%, 60%);
+  margin: clamp(1%, 25%, 60%);
   margin-top: 0;
   
 }
