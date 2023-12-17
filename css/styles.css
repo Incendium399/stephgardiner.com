@@ -93,6 +93,7 @@ h2 {
   text-align: center;
   font-size: 0;
   padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 #myName {
@@ -202,7 +203,6 @@ article {
   padding-top: 1vmin;
   border-radius: 2rem;
   padding: 1rem;
-  background-color: yellow;
 }
 
 
@@ -258,12 +258,13 @@ iframe {
   left: 0;
   top: 0;
 }
-#headshot {
-  width: 30%;
-}
 
 #headshot > img {
   border-radius: 50%;
+}
+
+.about-text{
+  margin: 1rem;
 }
 
 #myFooter {
@@ -355,6 +356,10 @@ img {
 footer{
   background-color: var(--secondary);
   font-family: var(--myfont)
+}
+
+.container{
+  margin-bottom: 2rem;
 }
 
 /* CARD LAND */
