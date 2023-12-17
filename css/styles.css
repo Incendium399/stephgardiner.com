@@ -149,74 +149,6 @@ h5 {
   text-align: left;
 }
 
-/* .carousel {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-
-  border: 5px solid blue;
-  height: 100%;
-  width: 100%;
-  object-position: 50% 50%;
-
-  object-fit: cover;
-}
-
-.carousel-inner {
-  border: 5px solid green;
-  height: inherit;
-  width: inherit;
-  object-position: inherit;
-}
-
-.carousel-item {
-  object-position: inherit;
-  border: solid 5px white;
-  height: 100%;
-
-  object-fit: cover;
-}
-
-a > img {
-  border: 5px solid magenta;
-  object-fit: cover;
-  object-position: center;
-}
-
-.carousel-caption {
-  text-align: left;
-  background-color: var(--secondary-transparent);
-  padding: 1rem;
-  margin: 0;
-  border: solid red 5px;
-  object-fit: inherit;
-}
-
-.parallax-container {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  color: var(--color);
-  row-gap: 4rem;
-
-  text-align: center;
-  border: 5px solid salmon;
-}
-
-.buffer {
-  width: 100%;
-  min-height: 60vh;
-  background-color: var(--background);
-} 
-*/
-
 p {
   color: var(--text);
   font-weight: 400;
@@ -257,6 +189,8 @@ article {
 .page-content-max {
   margin: clamp(1%, 25%, 60%);
   margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 /*makes it center aligned and gives a max width for any content*/
@@ -268,7 +202,9 @@ article {
   padding-top: 1vmin;
   border-radius: 2rem;
   padding: 1rem;
+  background-color: yellow;
 }
+
 
 .project-blurb {
   padding: 1rem;
@@ -345,6 +281,7 @@ iframe {
   padding: 1em;
   width: 12em;
   text-align: center;
+  
 }
 
 .project-collage {
@@ -419,6 +356,32 @@ footer{
   background-color: var(--secondary);
   font-family: var(--myfont)
 }
+
+/* CARD LAND */
+.card {
+  background-color: var(--secondary);
+  box-shadow: var(--shadow);
+  object-position: center;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  box-shadow: var(--shadow);
+  border: 0;
+  color: var(--text);
+}
+
+.card-body{
+  color: var(--text);
+}
+
+.card-wrapper{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  background-color: blue;
+}
+
 
 /*other links*/
 a:link {
