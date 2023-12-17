@@ -149,7 +149,7 @@ h5 {
   text-align: left;
 }
 
-.carousel {
+/* .carousel {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -199,7 +199,7 @@ a > img {
   align-items: center;
   justify-content: center;
 
-  /*  this is where the magic happens:  */
+
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -214,7 +214,8 @@ a > img {
   width: 100%;
   min-height: 60vh;
   background-color: var(--background);
-}
+} 
+*/
 
 p {
   color: var(--text);
