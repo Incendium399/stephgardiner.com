@@ -216,12 +216,17 @@ article {
 
 .project-details {
   margin: 1rem;
-  /*column-count: 2;*/
+  margin-top: -2rem;
+  margin-left: 1rem;
 }
 
 .project-details ul {
   padding-left: -1em;
-  column-span: none;
+}
+
+.project-details p {
+  padding-left: -1em;
+  text-align: left;
 }
 
 .video-wrapper {
