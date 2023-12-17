@@ -178,12 +178,12 @@ h5{
 
 .carousel-inner{
  
-  border: 10px solid green; 
+  border: 5px solid green; 
   height: inherit;
   width: inherit;
   object-position: inherit;
   
-  object-fit: inherit;
+  
   
 
 }
@@ -193,10 +193,16 @@ h5{
   object-position: inherit;
   border: solid 5px white;
   height: 100%;
-  width: inherit;
   
-  object-fit: inherit;
   
+  object-fit: cover;
+  
+}
+
+a > img{
+  border: 5px solid magenta;
+  object-fit: cover;
+  object-position: center;
 }
 
 .carousel-caption {
@@ -204,7 +210,7 @@ h5{
   background-color: var(--secondary-transparent);
   padding: 1rem;
   margin: 0;
-  border: solid red 20px;
+  border: solid red 5px;
   object-fit: inherit;
 }
 
