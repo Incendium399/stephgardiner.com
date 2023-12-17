@@ -13,8 +13,6 @@
 
   --shadow: 0em 0.1em 0.3em black;
 
-
-
   --myfont: "Poppins", sans-serif;
 
   font-size: 1;
@@ -30,11 +28,10 @@ body {
   margin: 0;
   font-size: 1;
 
-  background: var(--background  );
-  
+  background: var(--background);
 }
 
-footer {
+/*footer {
   margin: 0;
   width: 100%;
   bottom: 0;
@@ -46,7 +43,7 @@ footer {
 footer > p{
   text-align: center;
   padding-left: 1rem;
-}
+}*/
 
 /* huge title text*/
 h1 {
@@ -75,8 +72,6 @@ h1 {
 }
 
 h2 {
-  
-
   color: var(--text);
   text-shadow: var(--shadow);
   text-transform: uppercase;
@@ -92,28 +87,23 @@ h2 {
 
   /* padding: 0;*/
   margin: 0;
-
-  
 }
 /* project title is usually a h2 or h3 */
 .project-title {
   text-align: center;
   font-size: 0;
   padding-top: 4rem;
-  
 }
 
-#myName{
+#myName {
   text-align: left;
   margin-left: 2rem;
 }
 
-
-
 h3 {
   /*background-color: var(--primary);
           */
-  
+
   text-align: center;
   text-shadow: var(--shadow);
 
@@ -132,7 +122,6 @@ h3 {
 }
 
 h4 {
-  
   /*background-color: var(--secondary);*/
   text-shadow: var(--shadow);
   color: var(--text);
@@ -149,7 +138,7 @@ h4 {
   margin: 0;
 }
 
-h5{
+h5 {
   text-shadow: var(--shadow);
   color: var(--text);
   font-weight: 700;
@@ -158,48 +147,37 @@ h5{
 
   margin: 0;
   text-align: left;
-
-
 }
 
-.carousel{
+.carousel {
   position: fixed;
   bottom: 0;
   right: 0;
-  
+
   border: 5px solid blue;
   height: 100%;
   width: 100%;
   object-position: 50% 50%;
-  
+
   object-fit: cover;
-  
 }
 
-.carousel-inner{
- 
-  border: 5px solid green; 
+.carousel-inner {
+  border: 5px solid green;
   height: inherit;
   width: inherit;
   object-position: inherit;
-  
-  
-  
-
 }
 
-.carousel-item{
-  
+.carousel-item {
   object-position: inherit;
   border: solid 5px white;
   height: 100%;
-  
-  
+
   object-fit: cover;
-  
 }
 
-a > img{
+a > img {
   border: 5px solid magenta;
   object-fit: cover;
   object-position: center;
@@ -239,7 +217,6 @@ a > img{
 }
 
 p {
-  
   color: var(--text);
   font-weight: 400;
   font-family: var(--myfont);
@@ -270,7 +247,7 @@ li {
   padding-bottom: 0vh;
 }
 
-article{
+article {
   margin-top: 1em;
 }
 
@@ -279,7 +256,6 @@ article{
 .page-content-max {
   margin: clamp(1%, 25%, 60%);
   margin-top: 0;
-  
 }
 
 /*makes it center aligned and gives a max width for any content*/
@@ -291,8 +267,6 @@ article{
   padding-top: 1vmin;
   border-radius: 2rem;
   padding: 1rem;
-
-  
 }
 
 .project-blurb {
@@ -304,10 +278,8 @@ article{
 }
 
 .project-details {
-  
   margin: 1rem;
   /*column-count: 2;*/
-  
 }
 
 .project-details ul {
@@ -316,41 +288,33 @@ article{
 }
 
 .video-wrapper {
-
-
-  
   position: relative;
   padding-bottom: 56.25%;
   box-shadow: var(--shadow);
-  
 }
 
 iframe {
   height: 100%;
   width: 100%;
-
 }
 
-.project-video{
- position: absolute;
-
+.project-video {
+  position: absolute;
 
   bottom: 0;
   right: 0;
   left: 0;
   top: 0;
-
 }
 
-.document-embed{
+.document-embed {
   position: relative;
   padding-bottom: 100%;
   box-shadow: var(--shadow);
 }
 
-.document{
+.document {
   position: absolute;
-
 
   bottom: 0;
   right: 0;
@@ -359,27 +323,15 @@ iframe {
 }
 #headshot {
   width: 30%;
-
 }
 
-#headshot > img{
-  
+#headshot > img {
   border-radius: 50%;
-}
-
-#myTopnav {
-  width: 100%;
-  height: 4rem;
-  position: fixed;
-
-  background-color: red;
-  border: 5px solid aqua;
 }
 
 #myFooter {
   width: 100%;
   height: 1.5rem;
-  
 }
 
 .project-play {
@@ -404,127 +356,75 @@ iframe {
   /*grid-template-columns: 1fr auto;
   grid-template-rows: 2fr auto;
   grid-gap: 5px;*/
-
-  
 }
 
-figure{
+figure {
   width: 100%;
   height: 100%;
-  
+
   margin: 0;
   margin-bottom: 1rem;
 }
-.gallery_img{
+.gallery_img {
   width: auto;
   max-width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 
 img {
   box-shadow: var(--shadow);
   width: 100%;
   height: 100%;
-  
 }
 
 /* NEW NAVBAR LAND!!*/
-.navbar{
+.navbar {
   background-color: var(--background);
   border-bottom-style: solid;
   border-color: var(--text-transparent);
   border-width: 1;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: var(--text);
   text-transform: uppercase;
   font-weight: 900;
   font-family: var(--myfont);
 }
 
-.nav-item{
+.nav-item {
   color: var(--text);
   text-transform: uppercase;
   font-weight: 700;
   font-family: var(--myfont);
 }
 
-.dropdown-menu{
+.dropdown-menu {
   background: var(--secondary-transparent);
   border-width: 2;
-  border-color: var(--text-transparent)
+  border-color: var(--text-transparent);
 }
 
-.dropdown-item{
+.dropdown-item {
   color: var(--text);
   text-transform: uppercase;
   font-weight: 700;
   font-family: var(--myfont);
 }
 
-/*nav {
-  margin: 0;
-  padding: 0;
-}*/
-
-/* the link behavior for the top nav*/
-.topnav {
-  background-color: var(--background);
-  box-shadow: var(--shadow);
-  padding: 1rem;
-
-  font-family: "Poppins", sans-serif;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  border-bottom-style: solid;
-  border-color: var(--text-transparent);
-  border-width: 1;
-}
-
-.topnav a {
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* unvisited link in the topnav*/
-.topnav a:link {
-  color: var(--text);
-
-  padding: 0.4rem;
-}
-
-/* visited link in the topnav*/
-.topnav a:visited {
-  color: var(--text);
-}
-
-/* mouse over link in the topnav*/
-.topnav a:hover {
-  background-image: linear-gradient(to right, var(--text), var(--primary));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-}
-
-/* selected link in the topnav*/
-.topnav a:active {
-  color: var(--secondary);
+/* NEW FOOTER LAND*/
+footer{
+  background-color: var(--secondary);
+  font-family: var(--myfont)
 }
 
 /*other links*/
 a:link {
   color: var(--primary);
   text-decoration: none;
-
 }
-a:visited{
+a:visited {
   color: var(--primary);
   text-decoration: none;
 }
