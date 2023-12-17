@@ -31,25 +31,13 @@ body {
   background: var(--background);
 }
 
-
-/*other links*/
-/*a:link {
-  color: var(--primary);
-  text-decoration: none;
-}
-a:visited {
-  color: var(--primary);
-  text-decoration: none;
+a:link{
+  color: var(--text);
 }
 
-a:hover {
-  background-image: linear-gradient(to right, var(--text), var(--primary));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  font-weight: bold;
-} */
+a:hover{
+  color:var(--accent);
+}
 
 h2 {
   color: var(--text);
@@ -142,10 +130,6 @@ p {
   margin-bottom: 1rem;
 }
 
-.article h3 {
-  text-align: left;
-}
-
 ul {
   /*padding-left: 8vw;*/
   margin-top: 0;
@@ -159,10 +143,6 @@ li {
   /*padding-left: -2em;*/
   padding-top: 0vh;
   padding-bottom: 0vh;
-}
-
-article {
-  margin-top: 1em;
 }
 
 /* project page stuff*/
@@ -382,23 +362,26 @@ footer {
   box-shadow: var(--shadow)
 }
 
-.project-play, .project-play h3 {
+.project-play{
   box-shadow: var(--shadow);
   background-color: var(--primary);
   border-radius: 2rem;
   margin: auto;
-
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 1em;
   width: 12em;
   text-align: center;
   
 }
 
-.project-play:hover, .project-play h3:hover {
+.project-play:hover {
   box-shadow: var(--shadow);
   background-color: var(--accent);
   border-radius: 2rem;
   margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
   padding: 1em;
   width: 12em;
