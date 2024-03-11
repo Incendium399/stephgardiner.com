@@ -1,0 +1,435 @@
+:root {
+    /* MY COLOURS*/
+    --text: #100405;
+    --text-transparent: rgba(16, 4, 5, 5%);
+    --nothing: rgba(0, 0, 0, 0%);
+  
+    --primary: #ca3f44;
+    --primary-transparent: rgba(202, 63, 68, 20%);
+    --secondary: #8ddfce;
+    --secondary-transparent: rgba(141, 223, 206, 20%);
+    --accent: #728ad8;
+    --accent-transparent: rgba(114, 138, 216, 20%);
+  
+    --shadow: 0em 0.1em 0.3em black;
+  
+    --headingfont: "Mansalva", serif;
+    --bodyfont: "Sawarabi Gothic", sans-serif;
+  
+    font-size: 1;
+  
+    --background: #fcf3f4;
+    background-color: var(--background);
+  }
+  
+  body {
+    --contentmax: 100%;
+    --marginmin: 1rem;
+  
+    margin: 0;
+    font-size: 1;
+  
+    background: var(--background);
+  }
+  
+  a:link{
+    color: var(--text);
+  }
+  
+  a:hover{
+    color:var(--accent);
+  }
+  
+  h1 {
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--headingfont);
+  
+    padding-left: 0em;
+    /*padding-top: 1rem;*/
+    padding-bottom: 0em;
+    /*letter-spacing: 5px;*/
+  
+    font-size: 10vmin;
+
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 5.5vmin; 
+    text-decoration-skip-ink: none;
+    text-underline-offset: -5vmin;
+
+  
+    /* padding: 0;*/
+    margin: 0;
+  }
+
+  h2 {
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-family: var(--headingfont);
+    
+  
+    padding-left: 0em;
+    padding-top: 2rem;
+    padding-bottom: 0em;
+    /*letter-spacing: 5px;*/
+  
+    font-size: 5vmin;
+
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
+    text-decoration-thickness: 2vmin; 
+    text-decoration-skip-ink: none;
+    text-underline-offset: -1vmin;
+  }
+  /* project title is usually a h2 or h3 */
+  .project-title {
+    text-align: center;
+    font-size: 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  
+  #myName {
+    text-align: left;
+    margin-left: 2rem;
+  }
+  
+  h3 {
+    /*background-color: var(--primary);
+            */
+  
+    text-align: center;
+  
+    color: var(--text);
+    font-weight: 900;
+    font-family: var(--headingfont);
+
+
+  
+    /*padding-left: 5vw;*/
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    /*letter-spacing: 5px;*/
+  
+    font-size: 1rem;
+  
+    margin: 0;
+  }
+  
+  h4 {
+    /*background-color: var(--secondary);*/
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--headingfont);
+  
+    padding-left: 0vw;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+  
+    font-size: 40;
+  
+    margin: 0;
+  }
+  
+  h5 {
+    
+    color: var(--text);
+    font-weight: 700;
+    font-family: var(--headingfont);
+    font-size: 5vmin;
+  
+    margin: 0;
+    text-align: left;
+  }
+  
+  p {
+    color: var(--text);
+    font-weight: 400;
+    font-family: var(--bodyfont);
+  
+    text-align: justify;
+    text-align-last: left;
+    font-size: 1;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    /*padding-left: 8vw;*/
+    margin-top: 0;
+  }
+  
+  li {
+    color: var(--text);
+    font-weight: 400;
+    font-family: var(--bodyfont);
+  
+    /*padding-left: -2em;*/
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+  }
+  
+  /* project page stuff*/
+  /* sets a min margin width and max margin width*/
+  .page-content-max {
+    margin: clamp(1%, 25%, 60%);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /*makes it center aligned and gives a max width for any content*/
+  .page-content {
+    margin: auto;
+    max-width: var(--contentmax);
+    background-color: var(--primary-transparent);
+
+    padding-top: 1vmin;
+    padding: 1rem;
+  }
+  
+  .project-blurb {
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    background-color: var(--secondary);
+  }
+  
+  .project-details {
+    margin: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .project-details ul {
+    padding-left: -1em;
+  }
+  
+  .project-details p {
+    padding-left: -1em;
+    text-align: left;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+
+  }
+  
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .project-video {
+    position: absolute;
+  
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+  
+  .document-embed {
+    position: relative;
+    padding-bottom: 100%;
+
+  }
+  
+  .document {
+    position: absolute;
+  
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+  
+  #headshot > img {
+    border-radius: 50%;
+  }
+  
+  .about-text {
+    margin: 1rem;
+  }
+  
+  #myFooter {
+    width: 100%;
+    height: 1.5rem;
+  }
+  
+  
+  
+  .project-collage {
+    margin: 2em;
+  }
+  
+  .gallery {
+    width: 100%;
+    display: grid;
+    /*grid-template-columns: 1fr auto;
+    grid-template-rows: 2fr auto;
+    grid-gap: 5px;*/
+  }
+  
+  figure {
+    width: 100%;
+    height: 100%;
+  
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .gallery_img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  img {
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* NEW NAVBAR LAND!!*/
+  .navbar {
+    background-color: var(--background);
+    border-bottom-style: solid;
+    border-color: var(--text-transparent);
+    border-width: 1;
+  }
+  
+  .navbar-brand {
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--myfont);
+  }
+  
+  .nav-item {
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--myfont);
+  }
+
+  .nav-link {
+    color: var(--text);
+  }
+
+
+
+  
+  /*DROPDOWN */
+  
+  .dropdown-menu {
+    background: var(--secondary-transparent);
+    border-width: 2;
+    border-color: var(--text-transparent);
+  }
+  
+  .dropdown-item {
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--myfont);
+  }
+  
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: var(--accent);
+    color: var(--text);
+  }
+  
+  /* NEW FOOTER LAND*/
+  footer {
+    background-color: var(--secondary);
+    font-family: var(--myfont);
+  }
+  
+  .container {
+    margin-bottom: 2rem;
+  }
+  
+  /* CARD LAND */
+  .card {
+    background-color: var(--secondary);
+
+    object-position: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--primary);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .btn-primary {
+    color: var(--text);
+    background-color: var(--accent);
+    border: 0;
+    box-shadow: var(--shadow);
+  }
+  
+  .btn-primary:hover {
+    color: var(--text);
+    background-color: var(--primary);
+    border: 0;
+    box-shadow: var(--shadow)
+  }
+  
+  .project-play{
+    box-shadow: var(--shadow);
+    background-color: var(--primary);
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1em;
+    width: 12em;
+    text-align: center;
+    
+  }
+  
+  .project-play:hover {
+    box-shadow: var(--shadow);
+    background-color: var(--accent);
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  
+    padding: 1em;
+    width: 12em;
+    text-align: center;
+  }
+  
+  .card-body {
+    color: var(--text);
+  }
+  
+  .card-wrapper {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  
+  
+  
