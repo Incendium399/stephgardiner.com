@@ -76,13 +76,15 @@
     padding-bottom: 0em;
     /*letter-spacing: 5px;*/
   
-    font-size: 5vmin;
+    font-size: 7vmin;
 
     text-decoration: underline;
     text-decoration-color: var(--primary);
     text-decoration-thickness: 2vmin; 
     text-decoration-skip-ink: none;
     text-underline-offset: -1vmin;
+
+    text-align: center;
   }
   /* project title is usually a h2 or h3 */
   .project-title {
@@ -250,6 +252,10 @@
   #headshot > img {
     border-radius: 50%;
   }
+
+  #transparentPageContent{
+    background-color: var(--nothing);
+  }
   
   .about-text {
     margin: 1rem;
@@ -358,7 +364,7 @@
   .card {
     background-color: var(--secondary);
 
-    object-position: center;
+    /*object-position: center;*/
   }
   
   .btn {
