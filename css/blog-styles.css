@@ -7,7 +7,7 @@
     --primary: #ca3f44;
     --primary-transparent: rgba(202, 63, 68, 20%);
     --secondary: #8ddfce;
-    --secondary-transparent: rgba(141, 223, 206, 20%);
+    --secondary-transparent: rgba(141, 223, 206, 30%);
     --accent: #728ad8;
     --accent-transparent: rgba(114, 138, 216, 20%);
   
@@ -119,6 +119,11 @@
     font-size: 1rem;
   
     margin: 0;
+  }
+
+  .post-date{
+    text-align: right;
+    font-style: italic;
   }
   
   h4 {
@@ -275,9 +280,7 @@
   .gallery {
     width: 100%;
     display: grid;
-    /*grid-template-columns: 1fr auto;
-    grid-template-rows: 2fr auto;
-    grid-gap: 5px;*/
+
   }
   
   figure {
@@ -352,7 +355,7 @@
   
   /* NEW FOOTER LAND*/
   footer {
-    background-color: var(--secondary);
+    background-color: var(--secondary-transparent);
     font-family: var(--myfont);
   }
   
@@ -362,7 +365,7 @@
   
   /* CARD LAND */
   .card {
-    background-color: var(--secondary);
+    background-color: var(--accent-transparent);
 
     /*object-position: center;*/
   }
