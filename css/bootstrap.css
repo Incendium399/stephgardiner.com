@@ -12311,6 +12311,8 @@ textarea.form-control-lg {
   -webkit-overflow-scrolling: touch;
 }
 
+/* Custom classes */
+
 .carousel-img{
   width: 100%;
   height: 100%;
