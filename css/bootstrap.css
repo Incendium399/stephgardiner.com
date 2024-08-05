@@ -301,11 +301,11 @@ h1, .h1 {
   font-size: calc(4rem + 1.5vw);
 
   /* blue line */
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-color: var(--bs-emphasis-color);
   text-decoration-thickness: 3rem; 
   text-decoration-skip-ink: none;
-  text-underline-offset: -3vmin;
+  text-underline-offset: -3vmin; */
 
 
   /* padding: 0;*/
