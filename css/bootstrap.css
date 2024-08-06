@@ -681,9 +681,6 @@ output {
 
 iframe {
   border: 0;
-
-  height: 100%;
-  width: 100%;
 }
 
 summary {
@@ -12340,5 +12337,10 @@ textarea.form-control-lg {
   position: relative;
   padding-bottom: 56.25%;
   box-shadow: var(--shadow);
+}
+
+.project-video-iframe {
+  height: 100%;
+  width: 100%;
 }
 
