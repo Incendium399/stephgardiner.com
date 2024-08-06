@@ -681,6 +681,9 @@ output {
 
 iframe {
   border: 0;
+
+  height: 100%;
+  width: 100%;
 }
 
 summary {
@@ -8975,6 +8978,11 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-emphasis {
+  /*--bs-bg-opacity: 1;*/
+  background-color: rgba(var(--bs-emphasis-rgb), var(--bs-bg-opacity)) !important;
+}
+
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -12318,3 +12326,19 @@ textarea.form-control-lg {
   height: 100%;
   object-fit: cover;
 }
+
+.project-video {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  box-shadow: var(--shadow);
+}
+
