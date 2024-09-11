@@ -33,11 +33,11 @@
   --bs-gray-900: #212529;
 
   /* standard theme colors */
-  --bs-text: #100405;
-  --bs-background: #fcf3f4;
-  --bs-primary: #ca3f44;
-  --bs-secondary: #8ddfce;
-  --bs-emphasis: #728ad8;
+  --bs-text: #d5e3fe;
+  --bs-background: #010e22;
+  --bs-primary: #769ffd;
+  --bs-secondary: #9f0283;
+  --bs-emphasis: #fc215c;
   
   /* misc colors */
   --bs-success: #198754;
@@ -63,9 +63,9 @@
   --bs-dark-rgb: 0, 0, 0;
 
   /* standard emphasis */
-  --bs-primary-text-emphasis: #911d21;
-  --bs-primary-text-emphasis-rgb: 145, 29, 33;
-  --bs-secondary-text-emphasis: #4e9c8b;
+  --bs-primary-text-emphasis: #fcba03;
+  --bs-primary-text-emphasis-rgb: 252, 186, 3;
+  --bs-secondary-text-emphasis: #f0fc03;
 
   /* misc emphasis*/
   --bs-success-text-emphasis: #0a3622;
@@ -104,8 +104,8 @@
   --bs-black-rgb: 0, 0, 0;
 
   /* fonts!! */
-  --bs-font-serif: "Mansalva", serif;
-  --bs-font-sans-serif: "Sawarabi Gothic", sans-serif;
+  /*--bs-font-serif: "Quicksand", sans-serif;*/
+  --bs-font-sans-serif: "Quicksand", sans-serif;
 
   /* system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   /* --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
@@ -113,12 +113,12 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
   /* heading font */
-  --bs-heading-font-family: var(--bs-font-serif);
+  --bs-heading-font-family: var(--bs-font-sans-serif);
 
   /* body font */
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 900;
+  --bs-body-font-weight: 500;
   --bs-body-line-height: 1.5;
 
   /* body color */
@@ -136,7 +136,7 @@
   --bs-primary-color: var(--bs-primary);
   --bs-primary-color-rgb: var(--bs-primary-rgb);
 
-  --bs-secondary-color: rgba(141, 223, 206, 0.75);
+  --bs-secondary-color: var(--bs-secondary);
   --bs-secondary-color-rgb: var(--bs-secondary-rgb);
 
   --bs-secondary-bg: #1a4a40;
@@ -292,24 +292,18 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: var(--bs-heading-color);
 
     /* text appearance */
-    text-transform: uppercase;
-    font-weight: 900;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
   
 }
 
 h1, .h1 {
   font-size: calc(4rem + 1.5vw);
 
-  /* blue line */
-  /* text-decoration: underline;
-  text-decoration-color: var(--bs-emphasis-color);
-  text-decoration-thickness: 3rem; 
-  text-decoration-skip-ink: none;
-  text-underline-offset: -3vmin; */
-
-
   /* padding: 0;*/
   margin: 0;
+
+  
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -362,6 +356,8 @@ h6, .h6 {
   font-size: 1.2rem;
   text-align: center;
 }
+
+
 
 p {
   margin-top: 0;
@@ -12344,3 +12340,9 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+.gradient-fill {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
