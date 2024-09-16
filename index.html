@@ -38,38 +38,56 @@
   <script src="../assets/js/color-modes.js"></script>
   <!-- Scripts-->
 
-  <header> <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <p>Steph Gardiner</p>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="teamprojects.html">Team Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="soloprojects.html">Solo Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-          </ul>
+    <!-- NAVBAR HOME ACTIVE-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="/images/sgicon.svg"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Steph Gardiner</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teamprojects.html">Team Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="soloprojects.html">Solo Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header> <!-- NAVBAR -->
+      </nav>
+    </header>
+    <!-- NAVBAR HOME ACTIVE-->
 
   <main>
     <!-- Carousel-->
@@ -382,38 +400,25 @@
 
     </div> <!--Card Container-->
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="text-lg-start container">
-
       <!-- Grid container -->
-      <hr class="container p-4 pb-0">
+      <div class="p-4 pb-0"></div>
 
       <!-- Section: Links -->
       <section>
         <!--Grid row-->
         <div class="row">
           <!-- Grid column -->
-          <div class="col">
-            <h6 class="mb-0">More About Me</h6>
-            <a href="about.html">
-              <p class="mb-0">About Me</p>
+          <div class="col p-3 ps-md-5">
+            <h6 class="mb-0 text-center text-md-start text-decoration-none">
+              More About Me
+            </h6>
+            <a href="about.html" class="text-decoration-none">
+              <p class="mb-0 text-center text-md-start text-body">About Me</p>
             </a>
-            <a href="blog.html">
-              <p>My Blog</p>
-            </a>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col">
-            <h6 class="mb-0">Projects</h6>
-            <a href="teamprojects.html">
-              <p class="mb-0">Team Projects</p>
-            </a>
-            <a href="soloprojects.html">
-              <p>Solo Projects</p>
+            <a href="blog.html" class="text-decoration-none">
+              <p class="text-center text-md-start text-body">My Blog</p>
             </a>
           </div>
           <!-- Grid column -->
@@ -421,13 +426,42 @@
           <hr class="w-100 clearfix d-md-none" />
 
           <!-- Grid column -->
-          <div class="col">
-            <h6 class="mb-0">Contact</h6>
-            <a href="mailto:stephaniegardiner.contact@gmail.com">
-              <p class="mb-0 text-truncate">stephaniegardiner.contact@gmail.com</p>
+          <div class="col p-3">
+            <h6 class="mb-0 text-center text-md-start">Projects</h6>
+            <a href="teamprojects.html" class="text-decoration-none">
+              <p class="mb-0 text-center text-md-start text-body">
+                Team Projects
+              </p>
             </a>
-            <a href="https://www.linkedin.com/in/stephanie-gardiner-79711523b/">
-              <p>LinkedIn</p>
+            <a href="soloprojects.html" class="text-decoration-none">
+              <p class="text-center text-md-start text-body">Solo Projects</p>
+            </a>
+            <!--Footer Links-->
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col p-3">
+            <h6 class="mb-0 text-center text-md-start">Contact</h6>
+            <a
+              href="mailto:stephaniegardiner.contact@gmail.com"
+              class="text-decoration-none"
+            >
+              <p
+                class="mb-0 text-truncate text-center text-md-start text-body"
+              >
+                stephaniegardiner.contact@gmail.com
+              </p>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/stephanie-gardiner-79711523b/"
+              class="text-decoration-none"
+            >
+              <p class="text-center text-md-start text-body">
+                Find me on LinkedIn
+              </p>
             </a>
           </div>
           <!-- Grid column -->
@@ -442,7 +476,10 @@
           <!-- Grid column -->
           <div class="col-md-7 col-lg-8 text-center text-md-start">
             <!-- Copyright -->
-            <div class="p-3">© 2024 Copyright: Steph Gardiner</div>
+            <div class="p-3">
+              Made by Steph Gardiner with
+              <a href="https://getbootstrap.com/">Bootstrap</a>
+            </div>
             <!-- Copyright -->
           </div>
           <!-- Grid column -->
@@ -452,7 +489,9 @@
       </section>
       <!-- Section: Copyright -->
       <!-- Grid container -->
-    </footer> <!-- Close footer -->
+    </footer>
+    <!-- FOOTER -->
+     
   </main>
 </body>
 

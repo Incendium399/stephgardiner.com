@@ -8667,6 +8667,7 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
+
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
@@ -12355,4 +12356,14 @@ textarea.form-control-lg {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+footer {
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  border-radius: var(--bs-border-radius);
+}
+
+.footer-links {
+  text-align: left;
+  color: red;
 }
