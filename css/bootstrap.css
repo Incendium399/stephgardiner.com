@@ -702,7 +702,7 @@ progress {
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
@@ -12366,4 +12366,18 @@ footer {
 .footer-links {
   text-align: left;
   color: red;
+}
+
+
+.portfolio-l {
+  text-align: justify;
+  text-justify: inter-character;
+  font-size: 17.5vw;
+
+}
+
+.portfolio-l:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
