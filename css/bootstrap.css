@@ -6150,7 +6150,11 @@ textarea.form-control-lg {
 .carousel {
   position: relative;
 
-  margin-bottom: 4rem;
+  height: calc(100vh / 2)
+
+  /*height: calc((100vw / 16)* 9);*/
+
+  /*margin-bottom: 4rem;*/
 }
 
 .carousel.pointer-event {
@@ -6161,6 +6165,8 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+
+  height: calc(100vh / 2);
 }
 .carousel-inner::after {
   display: block;
@@ -6168,7 +6174,19 @@ textarea.form-control-lg {
   content: "";
 }
 
+
+
 .carousel-item {
+  /*position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+  height: 32rem;*/
+
   position: relative;
   display: none;
   float: left;
@@ -6177,8 +6195,20 @@ textarea.form-control-lg {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
-  height: 32rem;
+
+  /*height: calc((100vw / 16)* 9);*/
+  height: calc(100vh / 2);
+  
 }
+
+/*custom class */
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
@@ -12325,7 +12355,7 @@ textarea.form-control-lg {
 
 /* Custom classes */
 
-.carousel-img{
+/* .carousel-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -12384,4 +12414,4 @@ footer {
 
 .welcome-text {
   z-index: 10;
-}
+} */
