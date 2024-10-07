@@ -697,9 +697,60 @@ output {
   display: inline-block;
 }
 
-iframe {
-  border: 0;
+.video-container{
+  background-color: green;
+  width: 100%;
+  height: 56.25%;
+  position: relative;
+
 }
+
+iframe {
+ /* width: 100%; /* Fill the available width */
+  /*padding-bottom: 56.25%;*/
+    /*	height: 300px; /* Adjust height automatically */ 
+    /*position: absolute;*/
+
+    border: blue solid 1px;
+    width: 100%;
+    height: 56.25%;
+
+   /* bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;*/
+  
+}
+
+.video-wrapper{
+  /*max-width: 100%; /* Set a pixel value instead if no parent container*/
+  width: 100%;
+  height: 56.25%;
+  /*padding-bottom: 56.25%;*/
+  background-color: red;
+  /*margin: 0 auto; */ /* Center the container */
+  
+}
+
+/*.project-video {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  box-shadow: var(--shadow);
+}
+
+.project-video-iframe {
+  height: 100%;
+  width: 100%;
+}*/
 
 summary {
   display: list-item;
@@ -12406,25 +12457,7 @@ a.card-link>.card:hover{
   object-fit: cover;
 }
 
-.project-video {
-  position: absolute;
 
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-}
-
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  box-shadow: var(--shadow);
-}
-
-.project-video-iframe {
-  height: 100%;
-  width: 100%;
-}
 
 .gradient-fill {
   background: -webkit-linear-gradient(#eee, #333);
