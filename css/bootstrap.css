@@ -476,10 +476,7 @@ a.card-link{
 
 }
 
-a.card-link:hover{
-  color: green;
 
-}
 pre,
 code,
 kbd,
@@ -4732,6 +4729,13 @@ object-fit: cover;
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
+}
+
+a.card-link>.card:hover{
+  /*background-color: rgba(var(--bs-primary-color-rgb), 0.4);*/
+  box-shadow:  5px 5px 15px #bebebe,
+             -5px -5px 15px #ffffff;
+
 }
 
 .accordion {
