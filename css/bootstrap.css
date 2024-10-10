@@ -4576,15 +4576,15 @@ textarea.form-control-lg {
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-title-color: ;
   --bs-card-subtitle-color: ;
-  --bs-card-border-width: var(--bs-border-width);
-  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-width: 3px;
+  --bs-card-border-color: var(--bs-background);
   --bs-card-border-radius: 1rem;
   --bs-card-box-shadow: ;
   /*--bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));*/
   --bs-card-inner-border-radius: 1rem;
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
-  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-cap-bg: rgba(var(--bs-primary-rgb), 0.3);
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
