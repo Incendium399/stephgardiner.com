@@ -696,6 +696,12 @@ output {
 
 }
 
+.document-container{
+  width: 100%;
+  height: calc(((100vw/16)*9));
+  position: relative;
+}
+
 iframe {
  /* width: 100%; /* Fill the available width */
   /*padding-bottom: 56.25%;*/
@@ -723,25 +729,6 @@ iframe {
   
 }
 
-/*.project-video {
-  position: absolute;
-
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-}
-
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  box-shadow: var(--shadow);
-}
-
-.project-video-iframe {
-  height: 100%;
-  width: 100%;
-}*/
 
 summary {
   display: list-item;
